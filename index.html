@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+ 	<style type="text/css">
+        @import url("style.css");
+     </style>
+     
+	<script>
+		var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("yukiSlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+
+</head>
+
+<body>
+
+	<nav id="nav" role="navigation">
+            <a href="#nav" title="Show navigation">Show navigation</a>
+            <a href="#" title="Hide navigation">Hide navigation</a>
+            <ul style="margin-bottom: 0px;">
+                <li class="navigation">
+                    <a href="index.html"><img src="images/Logo-1-hover.png" width="auto" height="25px" alt="" </a>
+                </li>
+                <li class="navigation"><a href="about.html">about</a>
+                </li>
+                <li class="navigation"><a href="projects.html" aria-haspopup="true">projects</a>
+                    <ul>
+                        <li><a href="voting.html">Voting Project</a>
+                        </li>
+                        <li><a href="website.html">This Website</a>
+                        </li>
+                        <li><a href="time.html">Time Management</a></li>
+                        </ul>
+                <li class="navigation"><a href="blog.html" aria-haspopup="true">blog</a>
+                </li>
+            </ul>
+    </nav>
+        
+        
+        
+<br>
+<br> 
+<p> Click on the small dot </p>
+        <!-- Slideshow container -->
+        <div class="slideContainer">
+            
+            <!-- Full-width images with number and caption text -->
+                <div class="yukiSlides">
+                	<div class="numberText"> 1/4 </div>
+                    <img  src="images/wide-1.jpg" style="width:100%">
+                    <div class="slideText"> SlideDescription of slide one </div>
+             	</div>
+                    
+                    
+                    
+                <div class="yukiSlides">
+                	<div class="numberText"> 2/4 </div>
+                    <img  src="images/wide-2.jpg" style="width:100%">
+                    <div class="slideText"> SlideDescription of slide two </div>
+                </div>
+                    
+                    
+                    
+                <div class="yukiSlides">
+                	<div class="numberText"> 3/4 </div>
+                    <img  src="images/wide-3.jpg" style="width:100%">
+                    <div class="slideText"> SlideDescription of slide three </div>
+                </div>
+                    
+                    
+                    
+                <div class="yukiSlides">
+                	<div class="numberText"> 4/4 </div>
+                    <img  src="images/wide-4.jpg" style="width:100%">
+                    <div class="slideText"> SlideDescription of slide four </div>
+                </div>
+                
+                
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+                    
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            	<span class="dot" onclick="currentSlide(1)"><span>
+          	  	<span class="dot" onclick="currentSlide(2)"><span>
+            	<span class="dot" onclick="currentSlide(3)"><span>
+            	<span class="dot" onclick="currentSlide(4)"><span>
+            </div>
+            
+            
+            
+      <div class="content">       
+ <!-- P A G E   C O N T E N T   G O E S   H E R E ---------------------------->
+      
+      
+  
+  
+  
+  
+ <!-- P A G E   C O N T E N T   E N D S   H E R E-------------------------------->         
+    </div>
+        
+ 	<div id="footer">  
+        <footer>
+        
+        	<div class="fRow">
+ 				<div class="fColumn"><b>Connect with me:</b>   <br>
+					<a href="">GitHub </a>
+					<a href="">XING </a>
+					<a href="">LinkedIn </a>
+					<br>
+				</div>
+  				<div class="fColumn">
+  				</div>
+  				
+  				<div class="fColumn"><b> Legal</b> <br>
+					&#169Monika Zylka,  
+					All rights reserved 
+					
+					
+					</div>
+					<a href="imprint.html">Imprint</a> <br>
+					<a href="sitemap.html">Sitemap</a>
+				</div>
+		</footer>
+	</div>
+	
+	</body>
+</html>
