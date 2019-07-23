@@ -320,9 +320,9 @@ footer {
 .numberText{
 	color: #f2f2f2; 
 	font-size: 12px; 
-	padding: 18px; 12px; 
+	padding: 18px; 
 	position: absolute; 
-	top; 0;
+	top: 0;
 
 }
 
@@ -330,7 +330,7 @@ footer {
 .dot {
 	cursor: pointer; 
 	height: 15px; 
-	width; px; 
+	width: px; 
 	margin: 0 2px; 
 	background-color: #bbb; 
 	border-radius: 50%; 
@@ -360,8 +360,63 @@ footer {
 	to{opacity: 1}
 }
 
+
+/*-------------------------------------------ToDo List----------------------------*/
+.currentToDo li{
+    cursor: pointer;
+    /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.currentToDo li:hover {
+    background: #ddd;
+  }
+
+
+  .currentToDo li:checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  } 
+
 /*-------------------------------------------Other----------------------------*/
 .reportList li{
 	font-weight: 600;
-	margin-top: 1em;
+    margin-top: 1em;
+
 }
+
+.currentToDo li{
+    list-style-type: none;
+}
+
+li.checked {
+    text-decoration: line-through;
+  }
+
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 4px;
+    width: 50px;
+    border: 1px solid #555;
+    /*float: left; */
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  
+  #tasks{
+      font-size: 1em;
+  }
+
+
