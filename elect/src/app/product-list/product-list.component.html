@@ -1,0 +1,45 @@
+<h2>List of Candidates for the next election</h2>
+
+<div>
+
+<table class="clist" style="width:100%">
+  <!---Head of the Table-->
+  <tr style="text-align: center">
+    <th><h2>Party</h2></th>
+    <th><h2>Number</h2></th>
+    <th><h2>Name</h2></th>
+    <th><h2>Details</h2></th>
+    <th><h2>Action</h2></th>
+  </tr>
+
+<!---Each Candidate-->
+  <tr *ngFor="let product of products; index as productId" [routerLink]="['/products', productId]">
+    <td><h3>{{product.party}}</h3></td>
+    <td><h3>{{product.numberOnList}}</h3></td>
+    <td><h3>{{product.firstName}}  {{product.lastName}}</h3></td>
+    <td>{{product.gender}} <br>
+      {{product.district}} <br>
+      {{product.bornOrAge}} <br>
+      {{product.hashtags}} 
+      
+    </td>
+    <td> <button (click)="share()">
+        Share
+      </button>
+      <br>
+      <br>
+      <button (click)="addToCart(product)"> Remember </button>
+    </td>
+      
+  </tr>
+
+</table>
+
+ 
+
+  <app-product-alerts
+  [product]="product" 
+  (notify)="onNotify()">
+</app-product-alerts>
+
+  </div>
