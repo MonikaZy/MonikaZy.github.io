@@ -1,40 +1,96 @@
 <h2>List of Candidates for the next election</h2>
 
+<!---<a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by freepik - www.freepik.com</a>-->
+
+<div class="form-group">
+  <span><input type="text" placeholder = "Search by Term"
+    style="width: 300px;" ng-model="searchText" />
+  </span>
+</div>
+
+
 <div>
+<span style="width:100%">
+  <select ng-model="selected">
+    <option>Party</option>
+    <option>AFD</option>
+    <option>CDU</option>
+    <option>Die Partei</option>
+    <option>FBG</option>
+    <option>FDP</option>
+    <option>Freie Wähler</option>
+    <option>Grüne</option>
+    <option>Linke</option>
+    <option>SPD</option>
+    <option>Wählergruppe Schupp</option>
+  </select>
 
-<table class="clist" style="width:100%">
-  <!---Head of the Table-->
-  <tr style="text-align: center">
-    <th><h2>Party</h2></th>
-    <th><h2>Number</h2></th>
-    <th><h2>Name</h2></th>
-    <th><h2>Details</h2></th>
-    <th><h2>Action</h2></th>
-  </tr>
+  <select ng-model="selected">
+    <option>Gender</option>
+    <option>m</option>
+    <option>w</option>
+  </select>
 
-<!---Each Candidate-->
-  <tr *ngFor="let product of products; index as productId" [routerLink]="['/products', productId]">
-    <td><h3>{{product.party}}</h3></td>
-    <td><h3>{{product.numberOnList}}</h3></td>
-    <td><h3>{{product.firstName}}  {{product.lastName}}</h3></td>
-    <td>{{product.gender}} <br>
+  <select ng-model="selected">
+    <option>age</option>
+    <option>18-28</option>
+    <option>29-38</option>
+    <option>39-48</option>
+    <option>49-58</option>
+    <option>58+</option>
+  </select>
+
+  <select ng-model="selected">
+    <option>title</option>
+    <option>no title</option>
+    <option>Dr.</option>
+    <option>Prof.</option>
+  </select>
+
+  <select ng-model="selected">
+    <option>District</option>
+    <option>Altstadt</option>
+    <option>Arenberg</option>
+    <option>Bubenheim</option>
+    <option>Ehrenbreitstein</option>
+    <option>Goldgrube</option>
+    <option>Güls</option>
+    <option>Horchheim</option>
+    <option>Immendorf</option>
+    <option>Karthause</option>
+    <option>Kesselheim</option>
+    <option>Lützel</option>
+    <option>Metternich</option>
+    <option>Mitte</option>
+    <option>Moselweis</option>
+    <option>Niederberg</option>
+    <option>Neuendorf</option>
+    <option>Pfaffendorf</option>
+    <option>Rübenach</option>
+    <option>Rauental</option>
+    <option>Süd</option>
+    <option>Vorstadt</option>
+    <option>Wallersheim</option>
+  </select>
+
+</span>
+ 
+<!---Each Candidate, placeholer -->
+ <ol class="cList">
+  <li class="cListItem" *ngFor="let product of products | myfilter:searchText; index as productId" [routerLink]="['/products', productId]">
+      <h3 class="partyClass">{{product.party}}</h3>
+      <h2>{{product.numberOnList}}. {{product.title}} {{product.firstName}}  {{product.lastName}}</h2>
+      <img src="assets/images/{{product.pic}}" />
+      {{product.gender}} <br>
       {{product.district}} <br>
       {{product.bornOrAge}} <br>
-      {{product.hashtags}} 
-      
-    </td>
-    <td> <button (click)="share()">
+      {{product.hashtags}} <br>
+      <button (click)="share()">
         Share
-      </button>
-      <br>
-      <br>
-      <button (click)="addToCart(product)"> Remember </button>
-    </td>
-      
-  </tr>
+    </button>
+  </li>
 
-</table>
-
+ </ol> 
  
 
   <app-product-alerts

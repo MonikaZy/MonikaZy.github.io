@@ -11,6 +11,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 
+import { myfilter } from './product-list/myfilter.pipe';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { CartComponent } from './cart/cart.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    CartComponent
+    CartComponent, 
+    myfilter
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]

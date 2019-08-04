@@ -1,19 +1,26 @@
 .clist{
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
-td, th {
-    text-align: left;
-    padding: 8px;
-  }
+.cListItem{
+    width: 30%;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px #eee;
+}
 
-tr{
-    cursor: pointer;
-} 
+li.cListItem:hover{
+    border: 1px solid #eee;
+}
 
-tr:hover{
-    background-color: #eee !important;
+.partyClass{
+    text-align: center;
 }
   
 /*
