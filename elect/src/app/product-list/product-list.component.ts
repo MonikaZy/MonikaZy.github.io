@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { products } from '../products';
-//import {CallbackPipe} from 'searchFilter';
+
 
 @Component({
   selector: 'app-product-list',
@@ -10,16 +10,14 @@ import { products } from '../products';
 })
 
 export class ProductListComponent {
-  products = products;
+  products = products;  
+  searchText: string;
   // Use this property to stored filtered candidates, so we do not
   // lose the original list and do not have to make a round trip
   // to the web server on every new search
   // myfilter(products: any, searchText: string){
   //   return !products.includes(searchText)
   // }
-
-
-
   share() {
     window.alert('The product has been shared!');
   }
