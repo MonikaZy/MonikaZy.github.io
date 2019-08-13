@@ -3027,25 +3027,38 @@ export const products = [
       "gender": "m",
       "firstName": "Torsten",
       "lastName": "Schupp",
+      "pic" : "https://waehlergruppe-schupp.de/wp-content/uploads/2019/06/01-WGS-TORSTEN-SCHUPP-IMG_9634-1024x683.jpg",
       "area": "Karthause",
-      "politischesEngagement": "2002 – 2009 Mitglied im Jugendhilfeausschuss\n2004 – 2009 Geschäftsführer der FDP- Stadtratsfraktion\n2009 – 2019 Mitglied im Koblenzer Stadtrat\n2011 – 2016 stellvertretender Fraktionsvorsitzender\n2016 – 2019 Fraktionsvorsitzender",
-      "profession": "selbstständiger Friseurmeister"
+      "politischesEngagement": [ "2002 – 2009 Mitglied im Jugendhilfeausschuss\n", 
+      "2004 – 2009 Geschäftsführer der FDP- Stadtratsfraktion\n", 
+      "2009 – 2019 Mitglied im Koblenzer Stadtrat\n",
+      "2011 – 2016 stellvertretender Fraktionsvorsitzender\n",
+      "2016 – 2019 Fraktionsvorsitzender"
+     ]
+      ,
+      "profession": "selbstständiger Friseurmeister & FRAKTIONSVORSITZENDER"
   },
   {
       "id": 318,
       "party": "Wählergruppe Schupp",
       "numberOnList": 2,
       "gender": "w",
+      "pic" : "https://waehlergruppe-schupp.de/wp-content/uploads/2019/06/02-WGS-Hoernchen-Biggi-DSC_7038-kl-1024x682.jpg",
       "firstName": "Birgit",
-      "lastName": "Hoernchen"
-  },
+      "lastName": "Hoernchen",
+      "freetext" : "Biggi ist in München geboren und in Koblenz in Lützel, auf der Karthause und auf Pfaffendorfer Höhe aufgewachsen, hat in München BWL studiert und lebt seit 1998 wieder in Koblenz – zunächst in Güls, jetzt wieder auf der rechten Rheinseite in Pfaffendorf auf der Höhe. Birgit Hoernchen: “Beruflich arbeite ich auf zwei Standbeinen: einmal bin ich seit 12 Jahren selbstständig mit meiner Marketingfirma PPS (Publicity Promotion SocialMedia) – ich bin zertifizierte SocialMedia-Managerin und betreue für viele Firmen ihre Internetseiten und Auftritte in den sozialen Medien. Mein 2. Standbein ist der Verkauf von gesunden, ökologischen Fertighäusern in Schnellbauweise im Isowoodhaus in Mülheim-Kärlich. Hier arbeite ich als zertifizierte Fachberaterin im Fertighausbau. Seit fast drei Jahrzehnten engagiere ich mich für meine Heimat in verschiedenen Ehrenämtern. Neben dem Koblenzer Familienbündnis sind hier meine ehrenamtliche Tätigkeit für die Opferschutzorganisation Weisser Ring zu nennen sowie das Ehrenamt als Stadträtin in Koblenz, das ich seit 2005 ausübe. Hierbei halte ich immer eines im Blick: das Wohl und die Belange der Bürger meiner Heimat-Stadt und meiner Heimat-Region – und dies auch schon einmal über Partei-Interessen hinaus oder anders ausgedrückt auch schon mal mit anderen Parteien zusammen, wenn es eben dem Wohle der Heimat und damit den Einwohner dient."
+      },
   {
       "id": 319,
       "party": "Wählergruppe Schupp",
       "numberOnList": 3,
       "gender": "m",
+      "pic" : "https://waehlergruppe-schupp.de/wp-content/uploads/2019/06/03-WGS-David-Follmann-Koblenz.DSC_7046-1024x683.jpg",
       "firstName": "David",
-      "lastName": "Follmann"
+      "lastName": "Follmann",
+      "freetext" : "David Follmann ist in Kesselheim aufgewachsen und wohnt seit 17 Jahren in Koblenz Metternich. Er ist verheiratet und hat zwei Kinder im Alter von 8 und 5 Jahren. Seit 2002 Mitglied im Vorstand des FC Germania Metternich als Schatzmeister und 2. Vorsitzender. Seit 2013 erster Vorsitzender des FC Germania Metternich. Nach seiner Ausbildung zum Bankkaufmann bei der Deutschen Bank absolvierte David ein BWL-Studium an der FH Koblenz, das er als Dipl. Betriebswirt abschloss. Er war als Controller, Assistent der Geschäftsleitung und Filialdirektor tätig. Seit 2013 arbeitet David bei der Sparkasse Koblenz, zunächst als Geschäftsstellenleiter in Moselweiß und seit 2015 als Leiter des VersicherungsCenters. David ist Prüfer bei der IHK.",
+      "profession" : "Ratsmitglied"
+
   },
   {
       "id": 320,
@@ -3053,7 +3066,10 @@ export const products = [
       "numberOnList": 4,
       "gender": "w",
       "firstName": "Britt",
-      "lastName": "Gutmann"
+      "lastName": "Gutmann",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/28-739x1024.jpg",
+      "freetext" : "Britt lebt mit ihrer Familie im Stadtteil Koblenz Pfaffendorf. Dort arbeitet sie auch in ihrer eigenen Kanzlei als Rechtsanwältin. Ehrenamtlich engagiert sie sich die mehrfache Deutsche und Welt-Meisterin als Vorsitzende des Stadtsportverband Koblenz e. V. und als stellvertretende Sportkreisvorsitzende im Sportkreis Koblenz."
+      
   },
   {
       "id": 321,
@@ -3061,7 +3077,9 @@ export const products = [
       "numberOnList": 5,
       "gender": "w",
       "firstName": "Elfriede",
-      "lastName": "Schwarz"
+      "lastName": "Schwarz",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/FLS-05-Elfi-Schwarz-683x1024.png",
+      "freetext" : "Elfriede Schwarz wohnt seit über 10 Jahren in Koblenz – Horchheim. <br> Sie ist gepr. Pharmareferentin, Trainer (IHK) und Teamcoach. <br><br> <b>EHRENAMTLICHES ENGAGEMENT</b><br> Elfi engagiert sich ehrenamtlich bei der Opferschutzorganisation WEISSER RING in der Außenstelle Koblenz und setzt sich hier für die Hilfe von Opfern von Kriminalität und Gewalt ein."
   },
   {
       "id": 322,
@@ -3069,7 +3087,9 @@ export const products = [
       "numberOnList": 6,
       "gender": "m",
       "firstName": "Daniel",
-      "lastName": "Klaus"
+      "lastName": "Klaus",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/06-Daniel-Klaus-218x300.jpeg", 
+      "freetext" : "Daniel ist am 10.9.1982 in Koblenz geboren und seit 2008 wieder wohnhaft in Metternich. <br> Zwischen seinen Lebensjahren 2 und 18 wurde er von seinen Eltern in die Koblenz nahe Enklave Waldesch entführt. <br> <br> 2002 Abitur auf dem Gymnasium auf der Karthause gemacht. <br> 2003 Zivildienst <br> 2004-2006 Ausbildung <br> 2006-2012 Immobilienkaufmann bei der LBS-Montabaur <br> <br> Mitbegründer der Koblenzer Textilmarke „ UnaBux (gegründet 2010) <br> Seit dem (wenn man es so sagen will oder darf) erfolgreicher Unternehmer, 2012 zur Haupttätigkeit gemacht.<br> <br> Wenn Daniel mal etwas Freizeit hat, trifft er sich gerne mit Kollegen und Freunden oder geht mit Hund Berry spazieren."
   },
   {
       "id": 323,
@@ -3077,7 +3097,9 @@ export const products = [
       "numberOnList": 7,
       "gender": "w",
       "firstName": "Anna Maria",
-      "lastName": "Plato"
+      "lastName": "Plato",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Anne-Plato-IMG_9582-Kopie-1024x682.jpg", 
+      "freetext" : "Anne wohnt seit 57 Jahren in Koblenz-Arenberg, ist also ein waschechter Schängel. Sie ist verheiratet und hat eine Tochter. Von Beruf ist sie Erzieherin, widmet sich zur Zeit aber hauptsächlich dem Ehrenamt. Seit 2003 Vorsitzende der Bürgerinitiative Arenberg 2000. Seit 2004 Vorsitzende der Freien Wählergruppe Arenberg-Immendorf. Seit 2004 Sitz im Ortsbeirat. Seit 2012 Kassenwartin im Verein \“Innenrenovierung der Pfarrkirche St. Nikolaus\” \n Seit 2012 Spielplatzpatin für den Spielplatz \“Im Flürchen\” in Arenberg \n Seit 2016 ehrenamtliche Pflegetätigkeit bei einer älteren Dame im Caritashaus St. Elisabeth in Koblenz Arenberg \n Seit 2018 Lernpatin an der Grundschule in Koblenz Pfaffendorf"
   },
   {
       "id": 324,
@@ -3085,15 +3107,20 @@ export const products = [
       "numberOnList": 8,
       "gender": "m",
       "firstName": "Jo",
-      "lastName": "Böning"
+      "lastName": "Böning",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/WGS-KOBLENZ-JO-BO%CC%88NING-IMG_9628-1024x683.jpg",  
+      "freetext" : "Joachim \“Jo\” Böning wohnt in Koblenz Güls und ist dort sowie im 1979 gegründeten Familienbetrieb Böning Motorräder e.K. aufgewachsen. Er arbeitet als Kaufmann bei Böning Motorräder. Er ist Experte in der Mobilität in Sachen Zweirad mit Verbrennungsmotor und elektrisch. Als Vorreiter im Bereich Elektro-Roller möchte er in Koblenz den ÖPNV mit verbessern. In seiner Freizeit engagiert sich Jo ehrenamtlich beim THW im Ortsverband Lahnstein und bringt eine Menge Ideen für die Themen Sicherheit und Rettungswesen mit ein. Weiterhin interessiert er sich für den Bereich Tourismus."
+
   },
   {
       "id": 325,
       "party": "Wählergruppe Schupp",
       "numberOnList": 9,
       "gender": "w",
-      "firstName": "Eva",
-      "lastName": "Weber-Ihden"
+      "firstName": "Eva-Maria",
+      "lastName": "Weber-Ihden",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Eva-Weber-Ihden-DSC_7062-1024x683.jpg",
+      "freetext" : "1948 als Schängel geboren, bin ich meiner Heimatstadt Koblenz, bis auf 3 Jahre, die ich in München zwecks beruflicher Weiterbildung verbrachte, treu geblieben. Heute lebe ich mit meinem Ehemann in Moselweiß. Ich bin Schneidermeisterin und führe seit 1972 ein Modeatelier, in dem ich exklusive Maßkleidung herstelle. Im Hinblick auf den Ruhestand stelle ich diese Tätigkeit jedoch Schritt für Schritt ein. Mein Wissen und die Kenntnisse über mein fachliches Können aber gebe ich gerne weiter, indem ich als Dozentin an einer Meisterakademie unterrichte. Wissen weiter zu geben war immer eine meiner Lieblingsaufgaben. Zahlreiche Lehrlinge wurden von mir zu Maßschneiderinnen und Maßschneidern ausgebildet. Darüber hinaus war mir immer wichtig, Praktikantinnen und Praktikanten eine Entscheidungshilfe bei der Berufswahl zu bieten, ebenso wie angehenden Modedesignstudenten die nötigen Vorkenntnisse fürs Studium zu vermitteln. Bei den Handwerkskammern Koblenz und Trier habe ich ca. 20 Jahre lang Lehrlinge und angehende Meister unterrichtet. Seit Beginn meiner Selbständigkeit bin ich im Ehrenamt engagiert, ich habe Jahrzehnte lang in den Vorständen von Landes- und Bundesverband des Maßschneiderhandwerks unentgeltlich aktiv mitgewirkt und viele Dinge zu Gunsten des  Schneiderhandwerks ins Rollen gebracht. Bis heute bin ich die Obermeisterin unserer Innung. Seit meiner Jugendzeit bin politisch interessiert, meine Grundhaltung ist sozialdemokratisch. Das heißt nicht, dass ich die Entscheidungen in der heutigen SPD bedingungslos gutheiße. Ohnehin wäre es für mich nie in Frage gekommen, Mitglied einer Partei zu werden, weil ich mich ausschließlich meinem Gewissen und meinem gesunden Menschenverstand unterordnen möchte. Da bietet mir die Wählergruppe Schupp eine gute Gelegenheit, mich für die Belange meiner Mitmenschen in unsere Stadt einzusetzen."
   },
   {
       "id": 326,
@@ -3101,7 +3128,9 @@ export const products = [
       "numberOnList": 10,
       "gender": "m",
       "firstName": "Michael",
-      "lastName": "Sowinski"
+      "lastName": "Sowinski",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/Michael-Sowinski-DSC_7059-1024x683.jpg",
+      "freetext" : "Geboren in Koblenz, aufgewachsen und wohnend im Stadtteil Horchheim, Vater von 2 erwachsenen Kindern. Beruflich als Kaufmann im Bereich Kunststoff-Platten mit 30 Jahren Berufserfahrung, 15 Jahre selbständig mit der MKS Kunststoffe in Koblenz habe ich mich in unserer Stadt unter anderem dadurch betätigt, die Verglasungs-Platten für unsere Seilbahn zu liefern. Seit 2014 als Vertriebs- und Export-Manager bei einer Firma im Westerwald im Bereich transparenter Steg- und Wellplatten für Überdachungen tätig. Ehrenamtliche Tätigkeit: FC Horchheim – langjähriges Vorstandsmitglied, 2 Jahre als 2. Vorsitzender und 6 Jahre als Vorsitzender, seit 16 Jahren als Jugendtrainer aktiv, davon die letzten 8 Jahre Trainer der Bambini. Förderverein der Grundschule Horchheim – seit 13 Jahren dort im Vorstand, seit 9 Jahren Vorsitzender des Vereins.Narrenzunft Gelb-Rot, als Aktiver im Verein als Elferrat, ehemaliger Büttenredner und langjähriger Tänzer in der Tanzgarde. Ich unterstütze die Freie Wählergruppe bei der Kommunalwahl und trete für sie an, da ich die Arbeit von Torsten Schupp und Biggi Hoernchen für meine Heimatstadt  seit vielen Jahren mit Interesse verfolge und einfach finde, dass diese gute Arbeit im Stadtrat fortgesetzt werden muss. Mir gefällt die Idee, frei von Parteien und Fraktionszwang für unsere Bürger in der Stadt mit zu helfen, Koblenz noch lebenswerter zu machen."
   },
   {
       "id": 327,
@@ -3109,7 +3138,9 @@ export const products = [
       "numberOnList": 11,
       "gender": "w",
       "firstName": "Nadine ",
-      "lastName": "Schmitz-Germayer"
+      "lastName": "Schmitz-Germayer",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/NADINE-SCHMITZ-GERMAYER-DSC_7049_2-1024x682.jpg",
+      "freetext" : "Nadine wohnt in Koblenz Moselweiß und ist von Beruf Arzthelferin. Sie ist Mutter von zwei Kindern mit 16 und 10 JahrenIn ihrer Freizeit engagiert sich Nadine als Vorstandsmitglied im Verein zur Förderung des Christopher Street Days e. V. und Autofahrerin sowie leidenschaftliche Verfechterin sozialer Gerechtigkeit. Sie organisierte 2018 den CSD in Koblenz."
   },
   {
       "id": 328,
@@ -3117,7 +3148,10 @@ export const products = [
       "numberOnList": 12,
       "gender": "m",
       "firstName": "Markus",
-      "lastName": "Lorisika"
+      "lastName": "Lorisika",
+      "bornOrAge" : "1967",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/WGS-Markus-Lorisika.png",
+      "freetext" : "Markus Lorisika ist Jahrgang 1967, verheiratet, wuchs als Spross der Steinmetzfamilie Lorisika im Stadtteil Neuendorf auf und lebt heute in Güls. Er ist seit mehr als 20 Jahren im Personalmanagement mittelständischer Unternehmen tätig, setzt seinen Schwerpunkt daher darin, das Thema \“Arbeits- und Lebensraum Koblenz\” mit allen Beteiligten weiterzuentwickeln und Koblenz als Stadt in einer Region mit einem sehr breiten Arbeitsmarktangebot noch familienfreundlicher und damit attraktiver zu gestalten. Die Notwendigkeit besserer Angebote für Familien sieht er hier nicht nur am Start des Generationenmodells (Kita-Angebote mit erweiterten Öffnungszeiten, Stichwort #Brückenschmerzen, Ganztags-Schulmodelle, etc.), sondern auch an dessen Ende mit der Problematik für berufstätige, die Herausforderung \“Pflege von Angehörigen\” neben dem Beruf zu bewältigen (Tagespflegeangebote, Vollzeitpflege, Angebotstransparenz, etc.). Hier konnte er bereits erfolgreich Projekte in der Region umsetzen und möchte dies insbesondere in Koblenz weiter vorantreiben. Um die Eltern/Angehörigen zu entlasten und die Betroffenen nicht ihrer Lebensumgebung zu entfremden sieht er hier die Notwendigkeit, bezahlbare Unterstützungsangebote wohnsitznah in dem Stadtteil zu schaffen, in dem z. B. die Kinder auch aufwachsen bzw. Pflegebedürftige seit Jahrzehnten leben."
   },
   {
       "id": 329,
@@ -3125,7 +3159,9 @@ export const products = [
       "numberOnList": 13,
       "gender": "w",
       "firstName": "Heike",
-      "lastName": "Lorisika"
+      "lastName": "Lorisika", 
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Heike-Lorisika-IMG_20190410_104204-650x1024.jpg",
+      "freetext" : "Heike Lorisika ist Koblenzerin, verheiratet, und wohnt im Stadtteil Güls. Sie arbeitet als Assistentin der Geschäftsleitung bei einer mittelständischen Koblenzer Steuerberatungsgesellschaft. In ihrer Freizeit engagiert Heike sich für den Tierschutz als Vorstandsmitglied der Koblenzer Katzenhilfe."
   },
   {
       "id": 330,
@@ -3133,7 +3169,9 @@ export const products = [
       "numberOnList": 14,
       "gender": "m",
       "firstName": "Mike",
-      "lastName": "Klinge"
+      "lastName": "Klinge",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/14-Mike-Klinge-image1-227x300.png",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 331,
@@ -3141,7 +3179,10 @@ export const products = [
       "numberOnList": 15,
       "gender": "w",
       "firstName": "Andreas",
-      "lastName": "Krißel"
+      "lastName": "Krißel",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Andrea-Kissel.jpg",
+      "freetext" : "Andrea Krißel wohnt in Koblenz auf der Karthause und ist 33 Jahre alt. Sie kümmert momentan in der Elternzeit um ihre beiden Kinder. Ab diesem Sommer wird sie als angehende Erzieherin arbeiten. In ihrer Freizeit engagiert sie sich als aktives Mitglied bei der Großen Koblenzer Karnevalsgesellschaft."
+
   },
   {
       "id": 332,
@@ -3149,7 +3190,9 @@ export const products = [
       "numberOnList": 16,
       "gender": "m",
       "firstName": "Rolf",
-      "lastName": "Hennequin"
+      "lastName": "Hennequin", 
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Rolf-Hennequin.png",
+      "freetext" : "Geboren 1955 im Marienhof; Abitur 1975 am Max-von-Laue Gymnasium; 2 Jahre Bundeswehr (Fotograf); 2 Jahr gearbeitet in Bonn (= Ausland😀); Erster „echter“ Job, Debeka (Werbeabteilung!); Danach FH Koblenz (➞ Diplom Betriebswirt); Werbeagentur Linnig & Partner, Koblenz (Produktioner); 2002 Cut! … ➞ Selbständig; Heute Dozent, Autor, Lernfilmproduzent in der Erwachsenenbildung (IHK- Akademie); Seit fast 30 Jahren verheiratet mit Ehefrau Katja; Hobbys: Essen, Trinken, Leben genießen!"
   },
   {
       "id": 333,
@@ -3157,7 +3200,9 @@ export const products = [
       "numberOnList": 17,
       "gender": "m",
       "firstName": "Rainer",
-      "lastName": "Albert"
+      "lastName": "Albert", 
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/DSC_7070-1024x683.jpg",
+      "freetext" : "Rainer wurde an der schönen Mosel geboren und wuchs in Kobern-Gondorf in dem elterlichen familiär geführten Hotel auf. Heute wohnt Rainer in Koblenz Pfaffendorf – dem rheinischen Nizza – und genießt den Blick von dieser Seite auf unser schönes Koblenz. Nach einer Ausbildung zum Pharmareferenten arbeitete Rainer bei verschiedenen Unternehmen der pharmazeutischen Industrie. Inzwischen arbeitet er als Verkaufsleiter für ein amerikanisches Medizintechnikunternehmen im Bereich Diabetes."
   },
   {
       "id": 334,
@@ -3165,7 +3210,10 @@ export const products = [
       "numberOnList": 18,
       "gender": "m",
       "firstName": "Alex",
-      "lastName": "Kiefer"
+      "lastName": "Kiefer",
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/Axel-Kiefer.jpeg", 
+      "freetext" : "Nach 47 Jahren als Techniker bei der Telekom ist Axel aktuell in Rente. Die freie Zeit nutzt Axel für sein Engagement bei der Betreuung der Flüchtlingshilfe in Lay und in einige Vereinen im Ort. Axel war einig Jahre als Fährjunge für den Erhalt der Fähre aktiv (leider ohne Erfolg). Besonders liegen ihm die Probleme der Radfahrer in Lay und Koblenz am Herzen. Hier ist noch vieles zu tun. Ansonsten nutzt er seine freie Zeit für die Musik – besonders bei den  Moseltaler Musikanten, die volkstümliche Musik im Egerländer- und Oberkrainer-Sound spielen."
+
   },
   {
       "id": 335,
@@ -3173,7 +3221,9 @@ export const products = [
       "numberOnList": 19,
       "gender": "w",
       "firstName": "Petra",
-      "lastName": "Kias"
+      "lastName": "Kias", 
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Petra-Kias.jpeg",
+      "freetext" : "Petra Kias wohnt in Koblenz Rübenach – zusammen mit ihrer Hündin Julia. Seit 42 Jahren arbeitet Petra bei der Debeka als Versicherungskauffrau – und engagiert sich in ihrer Freizeit als stellvertretende Vorsitzende der Bürgerinitiative “Lebenswertes Rübenach!"
   },
   {
       "id": 336,
@@ -3181,7 +3231,9 @@ export const products = [
       "numberOnList": 20,
       "gender": "w",
       "firstName": "Kia",
-      "lastName": "Sattler "
+      "lastName": "Sattler ", 
+      "pic" : "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Kai-Sattler-DSC_7372-2-681x1024.jpg", 
+      "freetext" : "Kai Sattler lebt in Koblenz Niederberg und arbeitet als Bauleiter für Stahlschutzwände. Er engagiert sich ehrenamtlich beim Malteser Hilfsdienst und ist hier seit 2013 der Stadtbeauftragte in Koblenz. Außerdem ist der Mitglied im Caritasrat des Caritasverbandes Koblenz."
   },
   {
       "id": 337,
@@ -3189,7 +3241,9 @@ export const products = [
       "numberOnList": 21,
       "gender": "w",
       "firstName": "Christina",
-      "lastName": "Fruhling"
+      "lastName": "Fruhling", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Fruhling-c-IMG_4280_3.jpg",
+      "freetext" : "Christina Fruhling, geboren 1979 in Koblenz, lebt seit ihrem dritten Lebensjahr auf der Karthause. Sie ist verheiratet und Mutter einer elfjährigen Tochter und eines neunjährigen Sohnes. Nach ihrer Ausbildung zur Erzieherin arbeitete sie knapp 10 Jahre in der vollstationären Jugendhilfe. Seit 2012 ist sie als Mitinhaberin der in Koblenz ansässigen Solibra Firmengruppe im Bereich der erneuerbaren Energien tätig. Ehrenamtlich engagiert sich Christina im Vorstand des Fördervereins der Grundschule Am Löwentor."
   },
   {
       "id": 338,
@@ -3197,15 +3251,20 @@ export const products = [
       "numberOnList": 22,
       "gender": "m",
       "firstName": "Michael",
-      "lastName": "Meyer"
-  },
+      "lastName": "Meyer", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/MichaelMeyer-683x1024.jpg",
+      "freetext" : "Michael Meyer ist in Koblenz aufgewachsen und lebt mit seiner Familie seit 2010 im Stadtteil Lay. Er ist verheiratet und hat einen 10 Monate alten Sohn. Er arbeitet seit 1996 beim größten Koblenzer Arbeitgeber, der Debeka-Versicherungsgruppe in Moselweiß. Nach seiner Ausbildung zum Datenverarbeitungskaufmann war er 12 Jahre in der Anwendungsentwicklung tätig. Seit 2010 ist er freigestelltes Betriebsratsmitglied. Michael ist der Vorsitzende des Betriebsrats der Hauptverwaltung und stellv. Gesamtbetriebsratsvorsitzender der Koblenzer Versicherungsgruppe. Weiterhin sitzt er in den Aufsichtsräten der Muttergesellschaften Debeka Krankenversicherung und Debeka Lebensversicherung. Ehrenamtlich engagiert er sich in mehreren Funktionen bei ver.di im Fachbereich Finanzdienstleistungen. U. a. ist er Mitglied der Tarifkommission Versicherungen. Michael ist auch ehrenamtlicher Richter beim Arbeitsgericht in Koblenz. Freude macht ihm die Arbeit als Vorsitzender des jungen Koblenzer Chors „blueVibes“ e. V., der aus 55 Sängerinnen und Sängern besteht und den Michael gemeinsam mit Kollegen vor einem Jahr gegründet hat."
+    
+    },
   {
       "id": 339,
       "party": "Wählergruppe Schupp",
       "numberOnList": 23,
       "gender": "w",
       "firstName": "Barbara",
-      "lastName": "Krißel"
+      "lastName": "Krißel", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/BarbaraKrissel.png",
+      "freetext" : "Barbara wohnt in Koblenz auf der Karthause und arbeitet selbstständig mit ihrem Hausmeisterservice. In ihrer Freizeit betreut sie immer wieder ihre drei Enkelkinder im Alter von 7 und 3 Jahren und 9 Monaten. Ehrenamt: 20 Jahre Ehrenamt Fußballverband Rheinland. Jugendleiter Spfr. Goldgrube, Fußball Staffelleiter männliche Jugend Koblenz, Mädchenreferentin, Fußball Ferienfreizeiten."
   },
   {
       "id": 340,
@@ -3213,7 +3272,10 @@ export const products = [
       "numberOnList": 24,
       "gender": "m",
       "firstName": "Heinz",
-      "lastName": "Hoernchen"
+      "lastName": "Hoernchen", 
+      "bornOrAge" : "1937",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/IMG_9593.jpg",
+      "freetext" : "Heinz Hoernchen, am 14.12.1937 in Koblenz geboren, wurde kriegsbedingt mehrfach eingeschult, und zwar zunächst während der Evakuierungen in Geisenheim und Mittelsömmern/Thüringen, dann später noch ein drittes Mal in Koblenz. Nach dem Besuch von  Gymnasium und Handelsschule erlernte er in München bei Sport-Scheck den Beruf des Einzelhandelskaufmann. Danach leistete er seinen Wehrdienst bei der Luftwaffe auf dem Fliegerhorst Büchel. Heinz Hoernchen heiratete am 27.04.1961 in Daun / Eifel  Edith Litzlfelder. Die Familie vergrößerte sich noch im Jahr 1961 mit der Tochter Birgit und im Jahr 1967 mit dem Sohn Christian. 1960 trat er in das elterliche Sportgeschäft (Sporthaus Stadion) ein, das er von 1973 bis 1993 führte. Danach war Heinz Hoernchen für die Marienhaus GmbH, Waldbreitbach, einer der größten Kranken- und Altenheim-Trägerorganisationen Deutschlands, im Zentraleinkauf tätig. Begleitet war sein Berufsleben von großem ehrenamtlichen Engagement, vor allem im sportlichen, berufspolitischen und karnevalistischen Bereich. Schon in jungen Jahren begleitete Heinz Hoernchen das Amt des Schatzmeisters des Badminton-Verbandes Rheinland, war Vorsitzender des Badminton-Clubs Rot-Weiß Koblenz und 2. Vorsitzender des Ski-Clubs Rot-Weiß Koblenz. Später war er viele Jahre 2. Vorsitzender des Tennisvereins 1892 Koblenz. Das Engagement von Heinz Hoernchen galt jedoch nicht nur dem Sport, sondern auch den Organisationen des Einzelhandels. So war er von 1981 bis 1988 Vorsitzender des damaligen Einzelhandelsverbandes Koblenz-Montabaur und damit obligatorisch Vizepräsident des rheinland-pfälzischen Landeseinzelhandelsverbandes. In diesen Eigenschaften war  er  Mitglied  der Landestarifkommission. Außerdem hat Heinz Hoernchen in den Jahren 1985 bis 1987 als Sachverständiger des Bundes bei der Erarbeitung der neuen Ausbildungsordnung für den „Kaufmann /Kauffrau im Einzelhandel“ beim Bundesinstitut für Berufsbildung in Berlin mitgewirkt. Daneben führte er viele Jahre als Vorsitzender den Koblenzer Einzelhandels-Stadtverband und war dadurch Mitbegründer und teilweise auch Vorsitzender bzw. Vorstandsmitglied der Werbegemeinschaften „Entenpfuhl“ und „Alle lieben Koblenz“. Auch war er „Gründungshelfer“ bei den Werbe- und Straßengemeinschaften „Altengraben“, „Plan“, „Görresplatz“ und „Historische Altstadt“. Legendär in dieser Zeit war das von ihm initiierte und organisierte „Champagnerfest im Entenpfuhl“. Bei der Industrie- und Handelskammer Koblenz war er viele Jahre Mitglied der Vollversammlung und über 20 Jahre Prüfer für kaufmännische Berufe sowie Beisitzer  bei  der  Einigungsstelle  zur  Beilegung von Wettbewerbsstreitigkeiten. Darüberhinaus war Heinz Hoernchen als Aufsichtsratsmitglied 20 Jahre bei der Münchner Sport-Einkaufsgenossenschaft und 12 Jahre bei der Volksbank Mittelrhein tätig. Neben seinem Engagement in Sport und Beruf war Heinz Hoernchen auch viele Jahre für den Karneval, ausgelöst durch die ehrenvolle Ausübung des Amtes der „Confluentia“ durch seine Ehefrau Edith im Jahr 1977, ehrenamtlich tätig. So war er 12 Jahre lang 2. Vorsitzender der Arbeitsgemeinschaft Koblenzer Karneval (AKK) und 12 Jahre im Vorstand der Narrenzunft Gelb-Rot Koblenz, davon zunächst 2 Jahre 2. Vorsitzender, danach 10 Jahre 1. Vorsitzender, und später einige Jahre  Präsident des Ehrensenats. Während dieser Zeit bekleidete er auch das Amt  des Kassenprüfers der Narrenzunft Gelb-Rot. Nicht unerwähnt darf sein jahrelanges Engagement im Beirat sowie als Kassenprüfer des Kreisverbandes Koblenz-Stadt des Deutschen Roten Kreuzes bleiben. Als sein besonderes Steckenpferd galt in den letzten 41 Jahren der Koblenzer Schängel-Markt. Hier war er zunächst 14 Jahre im Beirat der Aktionsgemeinschaft „Koblenzer Schängel-Markt“ tätig. Danach hat Heinz Hoernchen gemeinsam mit Gerd Breidbach  diese jährlich im Herbst stattfindende Großveranstaltung organisiert. Von 1995 bis 2004 war Heinz Hoernchen dann für den „Koblenzer Schängel-Markt“ und die „Koblenzer Weihnachtswerbung“ mit  dem jeweils damit verbundenen Park-and-Ride-System allein verantwortlich. Er war zunächst als 2. Vorsitzender im Koblenzer Bürger- und Verkehrsverein und später als Geschäftsführer der für die verschiedenen  Veranstaltungen, wie  „Koblenz blüht“, „Koblenz autoMobil“ und „Koblenz City Open/Koblenz klingt“, deren Initiator er auch war, eigens gegründeten Koblenzer SchängelMarkt GmbH, der heutigen Koblenz-Stadtmarketing GmbH, tätig. Auch heute noch gilt seine Leidenschaft dem Koblenzer SchängelMarkt. So organisiert er Jahr für Jahr die Große Automobil-Ausstellung am Löhrrondell. Eines seiner größten Hobbys während aller Lebensabschnitte  war die Märklin-H0-Modelleisenbahn."
   },
   {
       "id": 341,
@@ -3221,7 +3283,9 @@ export const products = [
       "numberOnList": 25,
       "gender": "w",
       "firstName": "Kristin",
-      "lastName": "Diekmann"
+      "lastName": "Diekmann", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/25-Kristin-Diekmann-IMG_20190429_192202-767x1024.jpg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen. "
   },
   {
       "id": 342,
@@ -3229,7 +3293,9 @@ export const products = [
       "numberOnList": 26,
       "gender": "w",
       "firstName": "Kerstin",
-      "lastName": "Sauerland"
+      "lastName": "Sauerland", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/26-Kerstin-Sauerland.jpg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 343,
@@ -3237,7 +3303,9 @@ export const products = [
       "numberOnList": 27,
       "gender": "m",
       "firstName": "Volker",
-      "lastName": "Drose"
+      "lastName": "Drose", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/27-Volker-Drose-IMG_0004-1024x696.jpg",
+      "freetext" : "Volker Drose wurde in Dresden geboren. Seit fast 30 Jahren lebt er mit seiner Familie nun schon in Koblenz-Wallersheim und ist „mit Leib und Seele“ Koblenzer. Volker arbeitete 23 Jahre lang bei einem großen, international tätigen KEP-Unternehmen als Operation Manager. Seit 2014 ist er freiberuflich tätig und arbeitet mit seiner Firma VD-Training deutschlandweit als Führungskräfte-Trainer und als Personal Coach / Fachkraft für psychische Gesundheit (WA Pfalz). In seiner Freizeit ist Volker auch als DJ / Moderator mit seiner „Galactic-Disco“ unterwegs. Volker war schon immer politisch interessiert und möchte nun kommunalpolitisch für „sein Koblenz“ aktiv werden."
   },
   {
       "id": 344,
@@ -3245,7 +3313,9 @@ export const products = [
       "numberOnList": 28,
       "gender": "w",
       "firstName": "Astrid",
-      "lastName": "Neitzel"
+      "lastName": "Neitzel", 
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Astrid-Neitzel-1024x1024.jpg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 345,
@@ -3253,7 +3323,10 @@ export const products = [
       "numberOnList": 29,
       "gender": "m",
       "firstName": "Ed ",
-      "lastName": "Casel"
+      "lastName": "Casel", 
+      "link" : "https://waehlergruppe-schupp.de/wahlen/29-ed-casel",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/29-Ed-Casel-300x282.jpeg",
+      "freetext" : "https://waehlergruppe-schupp.de/wahlen/29-ed-casel"
   },
   {
       "id": 346,
@@ -3261,7 +3334,10 @@ export const products = [
       "numberOnList": 30,
       "gender": "w",
       "firstName": "Kathrin",
-      "lastName": "Ott"
+      "lastName": "Ott", 
+      "link" : "https://waehlergruppe-schupp.de/wahlen/30-kathrin-ott",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Kathrin-Ott-e1556549981378-768x1024.jpg",
+      "freetext" : "Kathrin Ott ist 35 Jahre alt und wohnt schon immer in Koblenz auf der Karthause. Sie ist Mutter von zwei Kindern und arbeitet als Erzieherin in einer katholischen Kindertagesstätte. Ehrenamtlich engagiert sie sich in der Pfarrei St. Hedwig und ist aktives Mitglied eines Karnevalsvereins."
   },
   {
       "id": 347,
@@ -3269,7 +3345,10 @@ export const products = [
       "numberOnList": 31,
       "gender": "m",
       "firstName": "Dirk",
-      "lastName": "Lemaire"
+      "lastName": "Lemaire", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 348,
@@ -3277,7 +3356,10 @@ export const products = [
       "numberOnList": 32,
       "gender": "w",
       "firstName": "Tanja",
-      "lastName": "Schmitz"
+      "lastName": "Schmitz", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 349,
@@ -3285,7 +3367,10 @@ export const products = [
       "numberOnList": 33,
       "gender": "w",
       "firstName": "Anna",
-      "lastName": "Sturm"
+      "lastName": "Sturm", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 350,
@@ -3293,7 +3378,10 @@ export const products = [
       "numberOnList": 34,
       "gender": "m",
       "firstName": "Hubi",
-      "lastName": "Braun"
+      "lastName": "Braun", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 351,
@@ -3301,7 +3389,10 @@ export const products = [
       "numberOnList": 35,
       "gender": "w",
       "firstName": "Jessica",
-      "lastName": "Schupp"
+      "lastName": "Schupp", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 352,
@@ -3309,7 +3400,10 @@ export const products = [
       "numberOnList": 36,
       "gender": "m",
       "firstName": "Rüdiger",
-      "lastName": "Neitzel"
+      "lastName": "Neitzel", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 353,
@@ -3317,7 +3411,10 @@ export const products = [
       "numberOnList": 37,
       "gender": "w",
       "firstName": "Julia",
-      "lastName": "Retkowski"
+      "lastName": "Retkowski", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 354,
@@ -3325,7 +3422,10 @@ export const products = [
       "numberOnList": 38,
       "gender": "m",
       "firstName": "Dirk",
-      "lastName": "Kissel"
+      "lastName": "Kissel", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 355,
@@ -3333,7 +3433,10 @@ export const products = [
       "numberOnList": 39,
       "gender": "w",
       "firstName": "Jutta",
-      "lastName": "Brettschneider"
+      "lastName": "Brettschneider", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 356,
@@ -3341,7 +3444,10 @@ export const products = [
       "numberOnList": 40,
       "gender": "m",
       "firstName": "René",
-      "lastName": "Güls"
+      "lastName": "Güls", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 357,
@@ -3349,7 +3455,10 @@ export const products = [
       "numberOnList": 41,
       "gender": "m",
       "firstName": "Reimund",
-      "lastName": "Hochscheid"
+      "lastName": "Hochscheid", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 358,
@@ -3357,7 +3466,10 @@ export const products = [
       "numberOnList": 42,
       "gender": "m",
       "firstName": "Jens",
-      "lastName": "Vogt"
+      "lastName": "Vogt", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 359,
@@ -3365,7 +3477,10 @@ export const products = [
       "numberOnList": 43,
       "gender": "m",
       "firstName": "Peter",
-      "lastName": "Krissel"
+      "lastName": "Krissel", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 360,
@@ -3373,7 +3488,10 @@ export const products = [
       "numberOnList": 44,
       "gender": "m",
       "firstName": "Mario",
-      "lastName": "Körber"
+      "lastName": "Körber", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 361,
@@ -3381,7 +3499,10 @@ export const products = [
       "numberOnList": 45,
       "gender": "m",
       "firstName": "Daniel",
-      "lastName": "Muß"
+      "lastName": "Muß", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 362,
@@ -3389,7 +3510,10 @@ export const products = [
       "numberOnList": 46,
       "gender": "m",
       "firstName": "Rainer",
-      "lastName": "Herrmann"
+      "lastName": "Herrmann", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 363,
@@ -3397,7 +3521,10 @@ export const products = [
       "numberOnList": 47,
       "gender": "m",
       "firstName": "Thomas",
-      "lastName": "Fritzsche"
+      "lastName": "Fritzsche", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 364,
@@ -3405,7 +3532,10 @@ export const products = [
       "numberOnList": 48,
       "gender": "m",
       "firstName": "Andreas",
-      "lastName": "Schlaudt"
+      "lastName": "Schlaudt", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 365,
@@ -3413,7 +3543,10 @@ export const products = [
       "numberOnList": 49,
       "gender": "m",
       "firstName": "Florian",
-      "lastName": "Thillmann"
+      "lastName": "Thillmann", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 366,
@@ -3421,7 +3554,10 @@ export const products = [
       "numberOnList": 50,
       "gender": "m",
       "firstName": "Frank",
-      "lastName": "Löhr"
+      "lastName": "Löhr", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 367,
@@ -3429,7 +3565,10 @@ export const products = [
       "numberOnList": 51,
       "gender": "m",
       "firstName": "Jürgen",
-      "lastName": "Sturm"
+      "lastName": "Sturm", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 368,
@@ -3437,7 +3576,10 @@ export const products = [
       "numberOnList": 52,
       "gender": "m",
       "firstName": "Wolfgang",
-      "lastName": "Nieberle"
+      "lastName": "Nieberle", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 369,
@@ -3445,7 +3587,10 @@ export const products = [
       "numberOnList": 53,
       "gender": "m",
       "firstName": "Christoph",
-      "lastName": "Alsbach"
+      "lastName": "Alsbach", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 370,
@@ -3453,7 +3598,10 @@ export const products = [
       "numberOnList": 54,
       "gender": "m",
       "firstName": "Sascha",
-      "lastName": "Graef"
+      "lastName": "Graef", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 371,
@@ -3461,7 +3609,10 @@ export const products = [
       "numberOnList": 55,
       "gender": "m",
       "firstName": "Frank",
-      "lastName": "Scheer"
+      "lastName": "Scheer", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 372,
@@ -3469,7 +3620,10 @@ export const products = [
       "numberOnList": 56,
       "gender": "m",
       "firstName": "Oliver",
-      "lastName": "Schupp"
+      "lastName": "Schupp", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "id": 373,
@@ -3477,7 +3631,10 @@ export const products = [
       "numberOnList": 57,
       "gender": "m",
       "firstName": "Thomas",
-      "lastName": "Knopp"
+      "lastName": "Knopp", 
+      "link" : "",
+      "pic": "",
+      "freetext" : ""
   },
   {
       "giveVotes": 0
