@@ -3346,9 +3346,9 @@ export const products = [
       "gender": "m",
       "firstName": "Dirk",
       "lastName": "Lemaire", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/31-dirk-lemaire",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/31-Dirk-Lemaire-.jpg",
+      "freetext" : "Dirk Lemaire wohnt mit seiner Familie in Koblenz Arenberg. Er ist in Koblenz geboren und aufgewachsen, ist verheiratet und hat zwei Kinder. Er ist gelernter Kaufmann / Betriebswirt, verfügt über 30 Jahre Außendiensterfahrung, war fast 20 Jahre Vertriebsleiter bei einem der weltgrößten Internetanbieter in Montabaur und dort mit der Gründung eines neuen Vertriebskanals und seinem Ausbau betraut. Dadurch sicher auch über Koblenz hinaus bekannt, z. B. Übernahme von einigen Shops z. B. E-Plus etc. u.a. Vertriebsleiter bei Fissler / Cookmal (Löhr-Center) etc. Aktuell Niederlassung-/ Stationsleiter bei einem weltweit operierenden Express-Dienstleister in Koblenz. Sicher weiß Google noch Einiges mehr. Bis dato noch nicht politisch in Erscheinung getreten – kann und soll sich für Koblenz ändern. Ehrenamtlich engagiert sich Dirk bereits jetzt als ehrenamtlicher Schöffe am Landgericht und Oberlandesgericht Koblenz sowie seit Januar 2018 beim Verwaltungsgericht."
   },
   {
       "id": 348,
@@ -3357,9 +3357,9 @@ export const products = [
       "gender": "w",
       "firstName": "Tanja",
       "lastName": "Schmitz", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/32-tanja-schmitz",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Tanja-Schmitz-DSC_7044_2-1024x682.jpg",
+      "freetext" : "Tanja wohnt in Moselweiß und arbeitet als Erzieherin im Sozialkulturellen Dienst in der Seniorenresidenz Moseltal. Verheiratet mit Nadine Schmitz-Germayer. EHRENAMTLICHES ENGAGEMENTSeit Jugend an immer schon ehrenamtlich aktiv gewesen als: Messdiener in der Kapelle Kemperhof Gruppenleiterin und Stammesvorstand bei den  St. Georgs Pfadfinder in Moselweiß Mitglied im Pfarrgemeinderat Tätig im Breiten- und Freizeitsport beim Kinderturnen und in der Abteilung KunstturnenAktuell: Seit ca. 1997 Mitglied in der Karnevalsgesellschaft Blau-Weiß-Moselweiß, darunter auch ein paar Jahre als Schatzmeister im Vorstand, Betreuerin der Tanzgruppen und Bindeglied zum Vorstand Mitglied und 2. Schriftführerin bei der Mosella 1880, Kirmes- und Heimatverein Moselweiß Mitgliedsbeauftragte im Vorstand des CSD Förderverein Koblenz e. V. Seit 2016 (Gruppen-)Leiterin während den Sommerlager bei der Kath. Jugend St. Elisabeth FREIZEIT: Neben meinen Vereinen… reisen, Konzertbesuche (Musik), unsere Hunde, Motorradfahren, Fotografieren und wandern."
   },
   {
       "id": 349,
@@ -3368,9 +3368,9 @@ export const products = [
       "gender": "w",
       "firstName": "Anna",
       "lastName": "Sturm", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/33-anna-sturm",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/Anna-Maria-Sturm-167x300.jpeg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 350,
@@ -3379,9 +3379,9 @@ export const products = [
       "gender": "m",
       "firstName": "Hubi",
       "lastName": "Braun", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/34-hubi-braun",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/34-Hubi-Braun-204x300.jpeg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 351,
@@ -3390,8 +3390,8 @@ export const products = [
       "gender": "w",
       "firstName": "Jessica",
       "lastName": "Schupp", 
-      "link" : "",
-      "pic": "",
+      "link" : "https://waehlergruppe-schupp.de/wahlen/35-jessica-schupp",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Jessica-Schupp-300x300.jpg",
       "freetext" : ""
   },
   {
@@ -3401,9 +3401,9 @@ export const products = [
       "gender": "m",
       "firstName": "Rüdiger",
       "lastName": "Neitzel", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/36-ruediger-neitzel",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Ru%CC%88diger-Neitzel--300x300.jpg",
+      "freetext" : "Rüdiger Neitzel wurde geboren 1942 in Bromberg, dem heutigen Bydgoszc (Polen), geboren. 1945 ist er an der Hand von Oma und Mutter zu Fuß von Kolberg nach Stettin geflüchtet und schließlich in Bad Pyrmont gelandet und aufgewachsen. Rüdiger erwähnt, dass das lesenswerte Buch “Wolfszeit” (von Harald Jähner) die Jahre von 1945 bis 1955 sehr zutreffend beschreibt. Er hat Verständnis für Flüchtlinge, war er ja selber einer. 1961 trat er in die Bundeswehr (Luftwaffe) ein und wohnt seit 1978 (wegen der Bundeswehr) in Rübenach. 1991 schied er als Oberstleutnant aus dem aktiven Dienst aus und arbeitete danach noch 12 Jahre als Zivilangestellter im Infrastrukturdirektorat des NATO HQ Brüssel. Ehrenamtliches Engagement Vizepräsident und Deutscher Vertreter der Vereinigung der ehemaligen internationalen Angestellten von AAPOCAD (mehr unter www.aapocad.org) Vorsitzender der Bürgerinitiative “Lebenswertes Rübenach e. V.” ehrenamtlicher Betreuer und bis vor kurzem auch noch Mitglied der FDP, die er zugunsten der Wählergruppe Schupp verlassen hat. Rüdiger dazu: “Dank und Anstand sind keine politischen Kategorien schrieb ich damals in einem Leserbrief und das finde ich bedauerlich …“"
   },
   {
       "id": 353,
@@ -3412,8 +3412,8 @@ export const products = [
       "gender": "w",
       "firstName": "Julia",
       "lastName": "Retkowski", 
-      "link" : "",
-      "pic": "",
+      "link" : "https://waehlergruppe-schupp.de/wahlen/37-julia-retkowski",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/37-Julia-Retkowski-300x300.jpeg",
       "freetext" : ""
   },
   {
@@ -3423,9 +3423,9 @@ export const products = [
       "gender": "m",
       "firstName": "Dirk",
       "lastName": "Kissel", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/38-dirk-kissel",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/DirkKissel-212x300.jpg",
+      "freetext" : "Dirk wohnt im Koblenzer Stadtteil Lay und ist berufstätig als Beamter. Viele kennen ihn durch sein ehrenamtliches Engagement. So ist er seit 33 Jahren Vorstandsmitglied des Vereins der Heimatfreunde Lay und dort auch seit 2012 der Vorsitzende. Er engagiert sich als Mitglied im Ortsring Koblenz Lay sowie in einigen Layer Vereinen und Karnevalsvereinen in Koblenz. Den Karnevalisten ist der als Karnevalsprinz in der Session 2005 für die  Arbeitsgemeinschaft Koblenzer Karneval gut in Erinnerung!"
   },
   {
       "id": 355,
@@ -3434,9 +3434,9 @@ export const products = [
       "gender": "w",
       "firstName": "Jutta",
       "lastName": "Brettschneider", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/39-jutta-brettschneider",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/39-Jutta-Brettschneider.jpg",
+      "freetext" : "Jutta ist ein echtes Kowelenzer Schängelche, wuchs in der Vorstadt auf und machte später die Karthause unsicher. Während ihres BWL-Studiums auf der VWA machte sie gleichzeitig eine Ausbildung zur Steuerfachangestellten und arbeitet seit über 25 Jahren in der Steuerberatung. Nach ein paar Jahren in Bonn hat es die sportliche Jutta allerdings wieder zurück in ihrer Geburtsstadt #Koblenz gezogen. Hier unterstützt sie mit ihrer Kandidatur die Wählergruppe Schupp."
   },
   {
       "id": 356,
@@ -3445,8 +3445,8 @@ export const products = [
       "gender": "m",
       "firstName": "René",
       "lastName": "Güls", 
-      "link" : "",
-      "pic": "",
+      "link" : "https://waehlergruppe-schupp.de/wahlen/40-rene-guels",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Rene_Bild-1024x683.jpg",
       "freetext" : ""
   },
   {
@@ -3456,9 +3456,9 @@ export const products = [
       "gender": "m",
       "firstName": "Reimund",
       "lastName": "Hochscheid", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/40-rene-guels",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Rene_Bild-1024x683.jpg",
+      "freetext" : "René Güls wurde am 02.02.1979 in Koblenz geboren, ist in Immendorf aufgewachsen und wohnt seit 15 Jahren auf dem Asterstein. Er ist verheiratet, hat 3 Kinder im Alter von 8, 14 und 18 Jahren und arbeitet in Bonn als Incident-Manager bei der „Postbank Systems“. Hier ist er auch als Ersatzmitglied im Betriebsrat aktiv. Ehrenamtliches Engagement bei u. a. TuS Koblenz (Social Media, IT-Administration, Stadion-Technik, uvm.) Fort Asterstein (Social Media) Facebook-Initiative “Pro Seilbahn Koblenz” (Social Media) DJK Asterstein (Technische Betreuung der Webseite)"
   },
   {
       "id": 358,
