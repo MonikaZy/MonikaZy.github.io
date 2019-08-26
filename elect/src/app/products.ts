@@ -3467,8 +3467,8 @@ export const products = [
       "gender": "m",
       "firstName": "Jens",
       "lastName": "Vogt", 
-      "link" : "",
-      "pic": "",
+      "link" : "https://waehlergruppe-schupp.de/wahlen/42-jens-vogt",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/42-Jens-Vogt.jpeg",
       "freetext" : ""
   },
   {
@@ -3478,9 +3478,9 @@ export const products = [
       "gender": "m",
       "firstName": "Peter",
       "lastName": "Krissel", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/43-peter-krissel",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/PeterKrissel-195x300.jpg",
+      "freetext" : "Peter ist 63 Jahre alt und wohnt in Koblenz auf der Karthause. Er ist ein gebürtiger Schängel und ist in der Goldgrube aufgewachsen. Seit 41 Jahren ist er mit seiner Ehefrau Barbara verheiratet. Die beiden haben drei Kinder und drei Enkelkinder. Peter hat vielseitige Erfahrung im ehrenamtlichen Engagement: 25 Jahre Jugendleiter, Trainer, Schiedsrichter, Durchführung von Ferienfreizeiten, Fußball-AGs in Schulen, Kontakt zur Partnerstadt Sondershausen, Betreuung von Senioren."
   },
   {
       "id": 360,
@@ -3489,9 +3489,9 @@ export const products = [
       "gender": "m",
       "firstName": "Mario",
       "lastName": "Körber", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/44-mario-koerber",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/MARIO-IMG_9962.jpg",
+      "freetext" : "Mario Körber wurde am 03.02.1963 in Lahnstein geboren und wuchs auch dort auf. Seit 11 Jahren ist er ein Schängel und das mittlerweile durch und durch. Er hat zwei erwachsene Kinder und zwei Enkel. Er arbeitet als Logistiker in einem weltweit operierenden Kunststoffunternehmen.  EHRENAMT Seine berufliche Tätigkeit gleicht er mit seinen beiden Hobbys in Kultur und Sport aus, denn sein ehrenamtliches Engagement gilt dem Theater und dem Fußballsport: Regelmäßig ist er als Statist im Theater Koblenz auf der Bühne aktiv. Sei es im Musiktheater, im Schauspiel oder im Puppentheater, mit dem er auch auf Tour in Kita‘s und Grundschulen in der näheren Umgebung ist. Bei der TuS Koblenz bedient und betreut er im Stadion Oberwerth zusammen mit René Güls die Videowand bei allen Heimspielen der TuS Koblenz."
   },
   {
       "id": 361,
@@ -3500,9 +3500,9 @@ export const products = [
       "gender": "m",
       "firstName": "Daniel",
       "lastName": "Muß", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/45-daniel-muss",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/45-Daniel-Mu%C3%9F-_2019-04-29-20-55-48-1-300x295.png",
+      "freetext" : "Daniel ist ein waschechter Schängel, stammt aus der Goldgrube und ist nach gemeinsamen beruflichen Jahren mit seiner Frau in Hessen nunmehr seit rund sechs Jahren wieder in Koblenz ansässig. Hier lebt er mit seiner Frau und dem fünfjährigen Sohn und zieht demnächst in den Stadtteil Wallersheim. Er ist als Verkaufsleiter Rheinland-Pfalz & Saarland bei einem österreichischen Braukonzern tätig. In seiner Freizeit ist er in verschiedenen Vereinen wie dem KCC, der Ehrengarde der Stadt Koblenz sowie der Narrenzunft Grün-Gelb Karthause unterwegs. Seine Hobbys sind Radfahren, Skifahren und auch einfach mal nur unser schönes Koblenz genießen 😉 Seine politische Vision für Koblenz: der direkte Draht vom Bürger in die Verwaltung, so wie es Torsten Schupp es lebt."
   },
   {
       "id": 362,
@@ -3511,9 +3511,9 @@ export const products = [
       "gender": "m",
       "firstName": "Rainer",
       "lastName": "Herrmann", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/46-rainer-herrmann",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/46-Rainer-Herrmann-IMG_9697_2%C2%AEBirgitHoernchen.de_.jpg",
+      "freetext" : "Rainer Herrmann ist auf dem Oberwerth groß geworden, hat 1985 am Max-von-Laue Gymnasium sein Abitur gemacht und 1993 sein 1. juristisches Staatsexamen in Trier absolviert. Es folgte 1995 das 2. Staatsexamen in Magdeburg. Seither ist er in der Region Koblenz als selbstständiger Rechtsanwalt mit den Schwerpunkten Verkehrsrecht und Strafrecht tätig. Rainer wohnt in Koblenz Pfaffendorf mit Blick auf den Kirchturm von St. Josef, wo er in seiner Jugend lange Messdiener war. In seiner Freizeit trifft man ihn schon mal im Stadion Oberwerth oder in der Koblenzer Altstadt."
   },
   {
       "id": 363,
@@ -3522,9 +3522,9 @@ export const products = [
       "gender": "m",
       "firstName": "Thomas",
       "lastName": "Fritzsche", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/47-thomas-fritzsche",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/47-Thomas-Fritzsche-DSC_9971-1-796x1024.jpg",
+      "freetext" : "Thomas Fritzsche ist 38 Jahre alt, geboren in Koblenz, aufgewachsen in der Altstadt und wohnt seit 2007 in Koblenz-Metternich mit seiner Freundin zusammen. Er arbeite als Audi/VW-Serviceberater bei der Löhr Gruppe im Autohaus Pretz in Koblenz-Horchheim. Ehrenamtlich ist er seit 2013 als Vizepräsident des Cheerleading und Cheerdance Verband Südwest e. V. und seit 2017 als Präsident des Cheerleading und Cheerperformence Verband Rheinland-Pfalz e. V. tätig"
   },
   {
       "id": 364,
@@ -3533,9 +3533,9 @@ export const products = [
       "gender": "m",
       "firstName": "Andreas",
       "lastName": "Schlaudt", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/48-andreas-schlaudt",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Andreas-Schlaudt.jpg",
+      "freetext" : "Andreas Schlaudt wohnt in Koblenz Bubenheim. Er hat in Mainz Humanmedizin studiert und war sechs Jahre in der Kinderklinik im Kemperhof tätig. Seit 2006 arbeitet er als Facharzt für Kinderheilkunde und Jugendmedizin in der Kinderarztpraxis in der Bahnhofstraße. In seiner Freizeit engagiert sich Andreas u. a. karnevalistisch beim Alt-Herren-Corps Koblenz.karnevalistisch beim Alt-Herren-Corps Koblenz."
   },
   {
       "id": 365,
@@ -3544,9 +3544,9 @@ export const products = [
       "gender": "m",
       "firstName": "Florian",
       "lastName": "Thillmann", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/49-florian-thillmann",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/49-ThillmannFlorian-214x300.jpg",
+      "freetext" : "Florian Thillmann wohnt in Koblenz auf der Karthause und ist als Ingenieur berufstätig. Er ist verheiratet und hat drei Kinder. In seiner Freizeit engagiert sich Florian seit 2004 als aktives Mitglied beim Malteser Hilfsdienst e. V. in Koblenz, dort vornehmlich im Bereich Sanitätsdienst und Katastrophenschutz."
   },
   {
       "id": 366,
@@ -3555,9 +3555,9 @@ export const products = [
       "gender": "m",
       "firstName": "Frank",
       "lastName": "Löhr", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/50-frank-loehr",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/50-WGS-Frank-Lo%CC%88hr-190410_Zimpfer_071-Kopie-1024x683.jpg",
+      "freetext" : "Frank ist 50 Jahre alt, in Koblenz geboren und in Koblenz-Lay aufgewachsen. Er hat die Dr. Zimmermannsche Wirtschaftsschule in Koblenz besucht und in Köln anschließend bei einem großen Gerüstbaubetrieb Kaufmann gelernt. Seit 30 Jahren bzw. seit 1988 ist er selbstständig. Er liebt seine Heimatstadt und wohnt hier über dem Friedrich-Ebert-Ring in Koblenz. Dadurch ist er täglich privat dem Verkehrschaos am Friedrich-Ebert-Ring, bedingt durch das Brückenchaos, ausgesetzt. Beruflich ist er Inhaber und Geschäftsführer der Frank Löhr Gerüstbau GmbH im Koblenzer Industriegebiet und Vermieter von Gewerbeimmobilien an ein benachbartes Industrieunternehmen mit vielen Arbeitsplätzen. Im Durchschnitt beschäftigt er 30 Arbeitnehmer in Koblenz und durch den Umzug seiner Firma von Boppard nach Koblenz wird die Gewerbesteuer auch in Koblenz gezahlt. Er war im Vorstand eines der größten deutschen Motorsportvereine in Adenau am Nürburgring. Privat lebt er getrennt, jedoch zusammen mit seinen beiden Boston-Terrier Hunden. Er tritt bei der Kommunalwahl 2019 für die Wählergruppe Schupp an, weil er mehrfach von vielen Seiten angesprochen wurde, mitzumachen und sich einzubringen. Dem voraus ging auch eine für ihn unfassbare Verkehrssituation in Koblenz. In diesem Zusammenhang gibt es u. a. für die Handwerker z. B. auch keine Handwerkerparkausweise mehr. Die Firmen kommen durch die Brückensituation auch nicht mehr zu ihren Kunden. Das gefährdet Betriebe und Arbeitsplätze. Auch die wichtigen Gewerbesteuereinnahmen werden für die Stadt Koblenz hierdurch geringer ausfallen. In anderen Ländern werden Brücken in Wochen und nicht in Jahren gebaut. Nur für eine einfache Gerüstgenehmigung muss ein seitenlanger Vordruck mit 10 Werktagen Vorlauf ausgefüllt werden. Dies gibt es in keiner anderen Stadt in Deutschland. Er bittet daher um Unterstützung und Stimmen für die Wählergruppe Schupp. Kreuzen Sie daher in Ihren Wahlunterlagen die Liste 10 Wählergruppe Schupp oder Platz 50 Frank Löhr an!"
   },
   {
       "id": 367,
@@ -3566,9 +3566,9 @@ export const products = [
       "gender": "m",
       "firstName": "Jürgen",
       "lastName": "Sturm", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/51-juergen-sturm",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/51-Ju%CC%88rgen-Sturm-1024x576.jpeg",
+      "freetext" : "Wir lassen Bilder sprechen 😉 Weitere Informationen folgen."
   },
   {
       "id": 368,
@@ -3577,9 +3577,9 @@ export const products = [
       "gender": "m",
       "firstName": "Wolfgang",
       "lastName": "Nieberle", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/52-wolfgang-nieberle",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Wolfgang-Nieberle-52-1024x1024.jpg",
+      "freetext" : "Wolfgang wohnt mit seiner Frau in Moselweiß. Er ist ein typischer Schwabe und hat sich Koblenz als seine Wahlheimat ausgesucht – u. a. wegen des hervorragenden Klimas. Von Beruf war Wolfgang Zimmerermeister und Bau-Ingenieur (grad.). Als Rentner arbeitet er noch immer nebenbei als Sachverständiger und Berater in einem Musterhaus der Firma ISOWOODHAUS in Mülheim-Kärlich. In seiner Freizeit trifft man ihn meistens auf dem Fahrrad in der Mosel-Region an."
   },
   {
       "id": 369,
@@ -3588,9 +3588,9 @@ export const products = [
       "gender": "m",
       "firstName": "Christoph",
       "lastName": "Alsbach", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/53-christoph-alsbach",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/53-Christoph-Alsbach-e1557548966299-1024x781.jpeg",
+      "freetext" : "Christoph Alsbach ist 40 Jahre alt und wohnt auf der Karthause. Er ist Papa von einem sechs jährigen Sohn und im Hauptberuf Feuerwehrbeamter im Einsatzdienst bei der Berufsfeuerwehr Koblenz. Sein ehrenamtliches Engagement: Seit 1998 ist Christoph Mitglied in der Einsatzabteilung der Freiwilligen Feuerwehr auf der Karthause. Von 2003 bis 2017 war er Jugendfeuerwehrwart der Jugendfeuerwehr Karthause. Christoph ist 2006 Mitglied der Großen Koblenzer Karnevalsgesellschaft 1847 e. V. und hier erst aktiv in der Showtanzgruppe. Außerdem ist er seit vier Jahren im Elferrat. Viele Koblenzer haben ihn in der abgelaufenen Karnevalssession als Hofmarschall der Tollitäten erleben dürfen"
   },
   {
       "id": 370,
@@ -3599,9 +3599,9 @@ export const products = [
       "gender": "m",
       "firstName": "Sascha",
       "lastName": "Graef", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/54-sascha-graef",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Sascha-Graef-20190429_113107-e1556530818619-768x1024.jpg",
+      "freetext" : "Sascha Graef wohnt auf der Karthause ist verheiratet und hat drei Kinder. Er arbeitet beim kommunalen Servicebetrieb Koblenz. Ehrenamtlich ist Sascha tätig seit der Jugend bei den Pfadfindern auf der Karthause auch als Jugendleiter und bei der freiwilligen Feuerwehr auf der Karthause seit über 15 Jahren."
   },
   {
       "id": 371,
@@ -3610,9 +3610,9 @@ export const products = [
       "gender": "m",
       "firstName": "Frank",
       "lastName": "Scheer", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/55-frank-scheer",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/05/Scheer-Frank-Foto-privat-2018.jpg",
+      "freetext" : "Frank Scheer wurde im April 1969 im Krankenhaus Marienhof in Koblenz Moselweiß geboren und ist ein waschechter Kowelenzer Schängel. Frank: “Aufgewachsen im Stadtteil Moselweiß und Rauental, lebe ich aktuell seit knapp 8 Jahren mit meiner Lebensgefährtin und 2 Katzen im Stadtteil Karthause. Gelernter Kaufmann im Einzelhandel bei Stilmöbelhaus Gremminger in Koblenz. Grundwehrdienst absolviert in Hammelburg und Koblenz. Seit Oktober 1992 als Führungskraft im Versicherungsaußendienst bei namhaften Versicherungen tätig und davon 10 Jahre selbstständig als freier Versicherungs- und Energiemakler sowie Ernährungsberater bis Dezember 2017. Seit Januar 2018 in einem festen Angestelltenverhältnis in einem Erdenwerk in Kobern-Gondorf, das Marktführer in unserer Region ist. Nebenberuflich weiterhin tätig als Energie-Makler und Ernährungsberater. Von frühester Jugend an war ich sportlich sehr aktiv bei der Coblenzer Turngesellschaft (CTG) im Turnen, danach als Leistungsschwimmer beim SC Poseidon Koblenz, wo ich 2 x Rheinland-Pfalzmeister geworden bin. Von 1987 an erlernte ich Karate bei der CTG bis zum grünen Gürtel, danach Moderne Selbstverteidigung beim Budo Club Koblenz bis zum Meistergrad, sodass ich den Budo Club Lahnstein 1994 gründete und bis im Jahr 2000 als Trainer und Vorstand begleitete. Von 1999 bis 2002 war ich Tauchausbilder an zwei Tauchschulen in Koblenz. Danach entdeckte ich das Disco Fox tanzen für mich, dem ich bis 2008 treu blieb. Torsten Schupp kenne ich bereits seit 1996 und schätze ihn als Persönlichkeit mit dem Herz auf dem rechten Fleck. Politisch bin ich bisher noch nicht aktiv gewesen, weil mich die Art und Weise wie andere Politik machen immer abgeschreckt hatte. Doch es ist an der Zeit etwas zu verändern für meine Heimatstadt, die ich liebe! Ich unterstütze die Freie Wählergruppe Schupp bei der Kommunalwahl und trete für sie an, da ich die Arbeit von Torsten Schupp und Biggi Hoernchen für meine Heimatstadt seit vielen Jahren mit Interesse verfolge und einfach finde, dass diese gute Arbeit im Stadtrat fortgesetzt werden muss. Mir gefällt die Idee, frei von Parteien und Fraktionszwang für unsere Bürger in der Stadt mit zu helfen, Koblenz noch lebenswerter zu machen.”"
   },
   {
       "id": 372,
@@ -3621,20 +3621,31 @@ export const products = [
       "gender": "m",
       "firstName": "Oliver",
       "lastName": "Schupp", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/56-oliver-schupp",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/56-Oliver-Schupp-628x1024.jpg",
+      "freetext" : "Oliver Schupp wohnt auf der Karthause und arbeitet in Koblenz als Herausgeber der Zeitung “Der Karthäuser” und engagiert sich ehrenamtlich beim Ortsring Karthause."
   },
+  {
+    "id": 373,
+    "party": "Wählergruppe Schupp",
+    "numberOnList": 57,
+    "gender": "m",
+    "firstName": "Ralf",
+    "lastName": "Scheuchner", 
+    "link" : "https://waehlergruppe-schupp.de/wahlen",
+    "pic": "",
+    "freetext" : ""
+},
   {
       "id": 373,
       "party": "Wählergruppe Schupp",
-      "numberOnList": 57,
+      "numberOnList": 58,
       "gender": "m",
       "firstName": "Thomas",
       "lastName": "Knopp", 
-      "link" : "",
-      "pic": "",
-      "freetext" : ""
+      "link" : "https://waehlergruppe-schupp.de/wahlen/58-thomas-knopp",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/K1600_Thomas_Knopp-1127-1024x815.jpg",
+      "freetext" : "Thomas Knopp wohnt in Koblenz Ehrenbreitstein und arbeitet selbstständig als Dipl.-Betriebswirt und Finanzcoach. Er war 30 Jahre bei zwei Großbanken tätig als Filialleiter, Leiter Baufinanzierung, Teamleiter, in den Jahren 1991 bis 1993 Aufbau einer Filiale in Freiberg/ Sachsen, seit 2013 selbständig als Finanzcoach bei Financefoxx ( www.financefoxx.de) mit Schwerpunkten Finanzanalysen ( u. a. auch private LV-/Rentenüberprüfung- Rückabwicklungen und PKV Beitragsoptimierung ohne Wechsel Gesellschaft) Finanzierungen/Baufinanzierungen, alternative lukrative Beteiligungen/ Absicherungsmodelle. Freie Vermittlungen am Markt, da ungebunden und keiner Gesellschaft verpflichtet."
   },
   {
       "giveVotes": 0
