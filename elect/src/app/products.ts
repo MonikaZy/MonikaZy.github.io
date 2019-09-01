@@ -12,7 +12,8 @@ export const products = [
       "bornOrAge": 1955,
       "profession": "Bundestagsabgeordneter",
       "district": "Güls",
-      "links": "https://www.bundestag.de/abgeordnete/biografien/P/pilger_detlev-522650"
+      "links": "https://www.bundestag.de/abgeordnete/biografien/P/pilger_detlev-522650",
+      "freetext" : "Geboren bin ich am 29. April 1955 in meiner schönen Heimatstadt Koblenz. Nach meinem Schulbesuch und einer ersten Ausbildung zum Einzelhandelskaufmann war ich in einer Vielzahl von Berufen tätig. Diese unterschiedlichen Erfahrungen ermöglichten mir die nicht immer einfache Lebensrealität der Bürgerinnen und Bürger dieses Landes zu erfahren. Nicht zuletzt auf Anraten meiner Frau entschloss ich mich ab 1980 mein Abitur nachzuholen, um in Mainz Religionspädagogik zu studieren. Anschließend habe ich zuerst als Religionspädagoge an der Hauptschule Koblenz-Lützel gearbeitet.  Nach einer Stelle beim Bistum Trier war ich seit 2010 als Lehrer an der Julius-Wegeler-Berufsschule tätig. Mein Lebensmittelpunkt liegt für meine Frau und mich noch immer in Koblenz, auch wenn unser gemeinsamer Sohn nicht mehr bei uns wohnt. Durch meine lange Verbundenheit mit meiner Heimat freue ich mich umso mehr, seit der Bundestagswahl 2013 den Wahlkreis 199 über die Landesliste im Deutschen Bundestag vertreten zu dürfen. Mein Mandat übe ich zurzeit als meinen einzigen Beruf aus, da ich nur so in einem für mich richtigen Maße für die Bürger und Bürgerinnen zur Verfügung stehen kann. Auch in der Stadtpolitik bin ich seit 2009 im Koblenzer Stadtrat aktiv. Viele meiner politischen Grundwerte stammen aus meiner Zeit als Pastoraltheologe in der sozialen Brennpunktarbeit: Man kann viel erreichen, wenn Menschen an einen glauben und Mut machen. Auf diesem Grundsatz beruht mein Engagement im sozialen Bereich und mein Einsatz für Menschen mit schwierigem sozialem Hintergrund. Die SPD teilt diese Haltung bezüglich Chancengleichheit und sozialer Gerechtigkeit, weshalb ich gerne Mitglied dieser Partei bin. Ich freue mich, wenn Sie sich dazu entschließen unsere Arbeit zu unterstützen."
       
   },
   {
@@ -3637,7 +3638,7 @@ export const products = [
     "freetext" : ""
 },
   {
-      "id": 373,
+      "id": 374,
       "party": "Wählergruppe Schupp",
       "numberOnList": 58,
       "gender": "m",
@@ -3646,9 +3647,6 @@ export const products = [
       "link" : "https://waehlergruppe-schupp.de/wahlen/58-thomas-knopp",
       "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/K1600_Thomas_Knopp-1127-1024x815.jpg",
       "freetext" : "Thomas Knopp wohnt in Koblenz Ehrenbreitstein und arbeitet selbstständig als Dipl.-Betriebswirt und Finanzcoach. Er war 30 Jahre bei zwei Großbanken tätig als Filialleiter, Leiter Baufinanzierung, Teamleiter, in den Jahren 1991 bis 1993 Aufbau einer Filiale in Freiberg/ Sachsen, seit 2013 selbständig als Finanzcoach bei Financefoxx ( www.financefoxx.de) mit Schwerpunkten Finanzanalysen ( u. a. auch private LV-/Rentenüberprüfung- Rückabwicklungen und PKV Beitragsoptimierung ohne Wechsel Gesellschaft) Finanzierungen/Baufinanzierungen, alternative lukrative Beteiligungen/ Absicherungsmodelle. Freie Vermittlungen am Markt, da ungebunden und keiner Gesellschaft verpflichtet."
-  },
-  {
-      "giveVotes": 0
   }
 ];
 

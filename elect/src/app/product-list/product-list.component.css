@@ -13,8 +13,10 @@ h2{
 }
 
 .image-pic{
+        object-fit: cover;
        width: 100%;
-       padding: 5px;
+       height: 400px;
+       padding: 2px;
        margin-left: auto;
        margin-right: auto;
 
@@ -24,8 +26,8 @@ h2{
     width: 30%;
     display: inline-block;
     flex-grow: 1;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     box-shadow: 1px 1px 1px #eee;
 }
 
@@ -37,6 +39,11 @@ li.cListItem:hover{
     text-align: center;
 }
   
+@media only screen and (max-width: 600px) {
+    .cListItem{
+        width: 100%;
+    }
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

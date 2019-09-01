@@ -1,24 +1,29 @@
-<h1> Candidate Details </h1>
 
-<div *ngIf="product">
-	<h2>{{product.party}}</h2>
+<div class="cl" *ngIf="product">
 
-	<h2>
-		{{product.firstName}}
-		{{product.lastName}}
-	</h2>
-	<h4>{{product.bornOrAge}},<br>
-			{{product.gender}}
-	</h4>
-	<p> {{product.freetext}}</p>
+
+	<div class="ctext">
+		<h1> {{product.firstName}}
+				{{product.lastName}} </h1> 
+
+
+	<h2>Partei: {{product.party}}</h2>
+	<h3>Geboren: {{product.bornOrAge}}<br>	
+	</h3>
+	<h3>Beschäftigung: {{product.profession}}</h3>
+<h4><i class="material-icons">room</i> {{product.district}} </h4>
+	<p class="truncate"> {{product.freetext}}</p>
 
 	<p>{{product.hashtags}}</p>
 
-	<p>{{product.profession}}</p>
+	<div class="r-btn">
+	<button (click)="addToCart(product)"> <p class="c-btn">Remember</p></button>
+	</div>
 
-  <button (click)="addToCart(product)"> Remember </button>
+
   <br>
-  <br><button (click)="share()">
-        Share
-      </button>
+</div>
+<div class="cimage">
+		<img class="image-pic" src="{{product.pic}}"  /> <br>
+	</div>
 </div>
