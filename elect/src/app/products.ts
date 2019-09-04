@@ -22,6 +22,7 @@ export const products = [
       "numberOnList": 2,
       "gender": "w",
       "pic": "https://www.spd-fraktion-koblenz.de/images/user_pages/Koebberling_Homepage.jpg",
+      "title"  : "Dr.",
       "firstName": "Anna",
       "lastName": "Köbberling",
       "bornOrAge": 1967,
@@ -36,6 +37,7 @@ export const products = [
       "numberOnList": 3,
       "gender": "m",
       "pic": "https://www.spd-fraktion-koblenz.de/images/user_pages/Rudolph_Homepage.jpg",
+      "title"  : "Dr.",
       "firstName": "Thorsten",
       "lastName": "Rudolph",
       "bornOrAge": 1974,
@@ -710,6 +712,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 2,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Ute Görgen",
       "lastName": "Görgen",
       "profession": "Einzelhandelskauffrau",
@@ -721,6 +724,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 3,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Lena",
       "lastName": "Etzkorn",
       "profession": "Studentin Volkswirtschaftslehre",
@@ -768,6 +772,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 7,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Marina",
       "lastName": "Khan",
       "profession": "Studentin Zahnmedizin",
@@ -779,6 +784,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 8,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Carl-Bernhard ",
       "lastName": "von Heusinger",
       "profession": "Rechtsanwalt",
@@ -791,6 +797,7 @@ export const products = [
       "numberOnList": 9,
       "title": "Dr.",
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Tabea",
       "lastName": "Stötter",
       "profession": "wissenschaftliche Mitarbeiterin Internationale Rheinschutzkommission",
@@ -803,6 +810,7 @@ export const products = [
       "numberOnList": 10,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Ulrich",
       "lastName": "Kleemann",
       "profession": "Geologe und Präsident SGD Nord",
@@ -814,6 +822,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 11,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Ulrike",
       "lastName": "Bourry",
       "profession": "Dipl.-Sozialarbeiterin",
@@ -827,6 +836,7 @@ export const products = [
       "gender": "m",
       "firstName": "Gordon",
       "lastName": "Gniewosz",
+      "pic": "assets/images/mCan.png",
       "profession": "Jurist",
       "hashtags": "#Integration #Studenten ",
       "freetext": "\"Koblenz ist eine weltoffene Stadt. Koblenz lebt Europa. Wir müssen die Menschen, die zu uns ziehen - egal, ob sie hier eine Arbeit, eine Ausbildung oder ein Studium aufnehmen oder ob sie als Geflüchtete zu uns gekommen sind - willkommen heißen und integrieren. Dafür müssen wir unsere gemeinsamen Anstrengungen verstärken.\""
@@ -837,6 +847,7 @@ export const products = [
       "numberOnList": 13,
       "title": "Dr.",
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Carolin",
       "lastName": "Schmidt-Wygasch"
   },
@@ -845,6 +856,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 14,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Detlef",
       "lastName": "Knopp"
   },
@@ -854,6 +866,7 @@ export const products = [
       "numberOnList": 15,
       "title": "Dr.",
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Heike",
       "lastName": "Rettig"
   },
@@ -862,6 +875,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Reinhard",
       "lastName": "Alsbach"
   },
@@ -870,6 +884,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 17,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sylvia",
       "lastName": "Weber"
   },
@@ -879,6 +894,7 @@ export const products = [
       "numberOnList": 18,
       "title": "Prof. Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Wolf-Andreas",
       "lastName": "Liebert"
   },
@@ -888,6 +904,7 @@ export const products = [
       "numberOnList": 19,
       "title": "Dr.",
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Catharina",
       "lastName": "Weichert"
   },
@@ -896,6 +913,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 20,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Harald",
       "lastName": "Weiner"
   },
@@ -904,6 +922,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 21,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Regina",
       "lastName": "Walter"
   },
@@ -912,6 +931,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 22,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Harald",
       "lastName": "Stölzgen"
   },
@@ -920,6 +940,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 23,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sabine",
       "lastName": "Bäcker"
   },
@@ -928,6 +949,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 24,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Uwe",
       "lastName": "Hüser"
   },
@@ -936,6 +958,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 25,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Helga",
       "lastName": "Baron"
   },
@@ -944,6 +967,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 26,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christian",
       "lastName": "Bayerlein"
   },
@@ -952,6 +976,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 27,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Christine",
       "lastName": "Reeka"
   },
@@ -961,6 +986,7 @@ export const products = [
       "numberOnList": 28,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Friedbert",
       "lastName": "Ackerman"
   },
@@ -969,6 +995,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 29,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sylvia",
       "lastName": "Itzinger"
   },
@@ -977,6 +1004,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 30,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Dorothea",
       "lastName": "Meinold"
   },
@@ -985,6 +1013,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 31,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sonja ",
       "lastName": "Maibach-Urmetzer"
   },
@@ -993,6 +1022,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 32,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Jürgen",
       "lastName": "Preusser"
   },
@@ -1001,6 +1031,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 33,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Hilde",
       "lastName": "Arens"
   },
@@ -1010,6 +1041,7 @@ export const products = [
       "numberOnList": 34,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Markus",
       "lastName": "Kirsch"
   },
@@ -1018,6 +1050,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 35,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Elisabeth",
       "lastName": "Bode"
   },
@@ -1026,6 +1059,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 36,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Gregor Max ",
       "lastName": "Höblich"
   },
@@ -1034,6 +1068,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 37,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Lydia ",
       "lastName": "Alsbach-Wendling"
   },
@@ -1042,6 +1077,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 38,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Jonas",
       "lastName": "Brast"
   },
@@ -1050,6 +1086,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 39,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Klaus ",
       "lastName": "Wörsdörfer-Goedert"
   },
@@ -1058,6 +1095,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 40,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Eva ",
       "lastName": "Liss-Mildenberger"
   },
@@ -1066,6 +1104,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 41,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Werner ",
       "lastName": "Huffer-Killian"
   },
@@ -1074,6 +1113,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 42,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Nicole",
       "lastName": "Kirsch"
   },
@@ -1083,6 +1123,7 @@ export const products = [
       "numberOnList": 43,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Wolfgang",
       "lastName": "Stein"
   },
@@ -1091,6 +1132,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 44,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Rita ",
       "lastName": "Schmidt-Hüser"
   },
@@ -1100,6 +1142,7 @@ export const products = [
       "numberOnList": 45,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thomas",
       "lastName": "Bernhard"
   },
@@ -1109,6 +1152,7 @@ export const products = [
       "numberOnList": 46,
       "title": "Dr.",
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Birgitta",
       "lastName": "Goldschmidt"
   },
@@ -1117,6 +1161,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 47,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Noah",
       "lastName": "Dürr"
   },
@@ -1125,6 +1170,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 48,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Maria Anna",
       "lastName": "Hartmann"
   },
@@ -1133,6 +1179,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 49,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Bernd ",
       "lastName": "von Sprockhoff"
   },
@@ -1141,6 +1188,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 50,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Bettina",
       "lastName": "Höblich"
   },
@@ -1149,6 +1197,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 51,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Alfons",
       "lastName": "Weber"
   },
@@ -1157,6 +1206,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 52,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Elisabeth ",
       "lastName": "Schlitz-Knopp"
   },
@@ -1165,6 +1215,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 53,
       "gender": "m",
+      "pic": "assets/images/wCan.png",
       "firstName": "Thorsten",
       "lastName": "Korn"
   },
@@ -1173,6 +1224,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 54,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Martina",
       "lastName": "Schulz"
   },
@@ -1181,6 +1233,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 55,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Timo",
       "lastName": "Bindewald"
   },
@@ -1189,6 +1242,7 @@ export const products = [
       "party": "Grüne",
       "numberOnList": 56,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Alexandra",
       "lastName": "Brinke"
   },
@@ -1197,6 +1251,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 1,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Oliver",
       "lastName": "Antpöhler",
       "bornOrAge": 32
@@ -1206,6 +1261,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 2,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Tobias",
       "lastName": "Christmann",
       "bornOrAge": 20
@@ -1215,6 +1271,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 3,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Anette",
       "lastName": "Vollmar",
       "bornOrAge": 45
@@ -1224,6 +1281,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 4,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Ursula",
       "lastName": "Rosenbaum",
       "bornOrAge": 76
@@ -1233,6 +1291,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 5,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Frédéric",
       "lastName": "Mayé",
       "bornOrAge": 40
@@ -1242,6 +1301,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 6,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christian",
       "lastName": "Zillgen",
       "bornOrAge": 27
@@ -1251,6 +1311,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 7,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Olga",
       "lastName": "Dolgich",
       "bornOrAge": 33
@@ -1260,6 +1321,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 8,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Britta",
       "lastName": "Materna",
       "bornOrAge": 59
@@ -1269,6 +1331,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 9,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Reinhard",
       "lastName": "Bach",
       "bornOrAge": 62
@@ -1278,6 +1341,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 10,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Dana",
       "lastName": "Strack",
       "bornOrAge": 25
@@ -1287,6 +1351,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 11,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Julia",
       "lastName": "Kämpf",
       "bornOrAge": 23
@@ -1295,7 +1360,8 @@ export const products = [
       "id": 124,
       "party": "Linke",
       "numberOnList": 12,
-      "gender": "w",
+      "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Daniel",
       "lastName": "Wehrheim",
       "bornOrAge": 29
@@ -1305,6 +1371,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 13,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Rolf",
       "lastName": "Bartholomae",
       "bornOrAge": 71
@@ -1314,6 +1381,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 14,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Isabelle",
       "lastName": "Cofflet",
       "bornOrAge": 27
@@ -1323,6 +1391,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 15,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Stafanie",
       "lastName": "Sinnig",
       "bornOrAge": 51
@@ -1332,6 +1401,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thorsten ",
       "lastName": "Erlemann",
       "bornOrAge": 35
@@ -1341,6 +1411,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 17,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Fyn Julius",
       "lastName": "Hartung",
       "bornOrAge": 22
@@ -1350,6 +1421,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 18,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Alva",
       "lastName": "Bogdanski",
       "bornOrAge": 27
@@ -1359,6 +1431,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 19,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Elisa",
       "lastName": "Nöller",
       "bornOrAge": 23
@@ -1368,6 +1441,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 20,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thomas",
       "lastName": "Förster",
       "bornOrAge": 62
@@ -1377,6 +1451,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 21,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Deniz",
       "lastName": "Dizan",
       "bornOrAge": 23
@@ -1386,6 +1461,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 22,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Brigitte",
       "lastName": "Winkler",
       "bornOrAge": 55
@@ -1395,6 +1471,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 23,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Markus ",
       "lastName": "von Beckerath",
       "bornOrAge": 33
@@ -1404,6 +1481,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 24,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Tristan",
       "lastName": "Schassee",
       "bornOrAge": 18
@@ -1413,6 +1491,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 25,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Marcel",
       "lastName": "Günther",
       "bornOrAge": 45
@@ -1422,6 +1501,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 26,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Alexander",
       "lastName": "Schedler",
       "bornOrAge": 35
@@ -1431,6 +1511,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 27,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Karl-Heinz",
       "lastName": "Fernholz",
       "bornOrAge": 69
@@ -1440,6 +1521,7 @@ export const products = [
       "party": "Linke",
       "numberOnList": 28,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Rolf",
       "lastName": "Klee",
       "bornOrAge": 64
@@ -1613,6 +1695,7 @@ export const products = [
       "gender": "m",
       "firstName": "Karl-Heinz",
       "lastName": "Rosenbaum",
+      "pic": "assets/images/mCan.png",
       "area": "Güls",
       "politischesEngagement": "Stadtrat seid 2016",
       "hashtags": "#Infrastruktur #ÖPNV #Vereine 'Friedhof #Parkplätze #Wildblumenwiesen #Spielplatz #Schiffe",
@@ -1664,6 +1747,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 17,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Martina",
       "lastName": "von Berg",
       "area": "Arzheim"
@@ -1672,6 +1756,7 @@ export const products = [
       "id": 158,
       "party": "CDU",
       "numberOnList": 18,
+      "pic": "assets/images/mCan.png",
       "title": "Dr.",
       "gender": "m",
       "firstName": "Fabian",
@@ -1684,6 +1769,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 19,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Tim",
       "lastName": "Michels",
       "area": "Arenberg/Immendorf"
@@ -1693,6 +1779,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 20,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Susanne",
       "lastName": "von Wnuk-Lipinski",
       "area": "Süd"
@@ -1702,6 +1789,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 21,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Jens",
       "lastName": "Wehran",
       "area": "Lützel"
@@ -1721,6 +1809,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 23,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gabriele",
       "lastName": "Kürthe",
       "area": "Arenberg / Immendorf"
@@ -1730,6 +1819,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 24,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Ralf",
       "lastName": "Beaujean",
       "area": "Horchheim"
@@ -1739,6 +1829,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 25,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Stefan",
       "lastName": "Hofmann",
       "area": "Niederberg"
@@ -1748,6 +1839,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 26,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michel",
       "lastName": "Guretzke",
       "area": "Kesselheim",
@@ -1758,6 +1850,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 27,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Michelle",
       "lastName": "Pforr",
       "area": "Pfaffendorf/Asterstein",
@@ -1768,6 +1861,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 28,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Weske",
       "area": "Arzheim"
@@ -1777,6 +1871,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 29,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "August",
       "lastName": "Hollmann",
       "area": "Güls"
@@ -1786,6 +1881,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 30,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Viktoria",
       "lastName": "Kist-Alsbach",
       "area": "Lay"
@@ -1795,6 +1891,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 31,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Mike",
       "lastName": "Karen",
       "area": "Bubenheim"
@@ -1814,6 +1911,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 33,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christian",
       "lastName": "Gürke",
       "area": "Stolzenfels"
@@ -1823,6 +1921,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 34,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thomas",
       "lastName": "Stewin",
       "area": "Kesselheim"
@@ -1832,6 +1931,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 35,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Bernd-Dieter",
       "lastName": "Schlemmer",
       "area": "Bubenheim"
@@ -1841,6 +1941,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 36,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Stefan",
       "lastName": "Kiwitz",
       "area": "Arenberg/Immendorf"
@@ -1850,6 +1951,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 37,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Michaela",
       "lastName": "Puchta",
       "area": "Rübenach"
@@ -1858,6 +1960,7 @@ export const products = [
       "id": 178,
       "party": "CDU",
       "numberOnList": 38,
+      "pic": "assets/images/mCan.png",
       "title": "Dr.",
       "gender": "m",
       "firstName": "Martin",
@@ -1869,6 +1972,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 39,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Marco",
       "lastName": "Perscheid",
       "area": "Moselweiß/Rauental"
@@ -1878,6 +1982,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 40,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Anne-Leoni",
       "lastName": "Malmes",
       "area": "Moselweiß/Rauental"
@@ -1887,6 +1992,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 41,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Heinz-Josef",
       "lastName": "Zehe",
       "area": "Ehrenbreitstein"
@@ -1896,6 +2002,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 42,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Kirill",
       "lastName": "Kalinin",
       "area": "Lützel"
@@ -1905,6 +2012,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 43,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Sebastian",
       "lastName": "Krupp",
       "area": "Metternich"
@@ -1914,6 +2022,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 44,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Boris",
       "lastName": "von Dieringer",
       "area": "Pfaffendorf/Asterstein"
@@ -1923,6 +2032,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 45,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Dirk",
       "lastName": "Runzheimer",
       "area": "Süd"
@@ -1932,6 +2042,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 46,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Melanie",
       "lastName": "Hoheneck",
       "area": "Niederberg"
@@ -1941,6 +2052,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 47,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Stephan",
       "lastName": "Bretthauer",
       "area": "Metternich"
@@ -1951,6 +2063,7 @@ export const products = [
       "numberOnList": 48,
       "title": "Prof.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Heinz Anton",
       "lastName": "Hoehnen",
       "area": "Stolzenfels"
@@ -1960,6 +2073,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 49,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Petra",
       "lastName": "Knopp",
       "area": "Wallersheim"
@@ -1969,6 +2083,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 50,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Nasir Ahmed",
       "lastName": "Ashraf",
       "area": "Lützel"
@@ -1978,6 +2093,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 51,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Adrian",
       "lastName": "Krotzek",
       "area": "Wallersheim"
@@ -1987,6 +2103,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 52,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sandra",
       "lastName": "Hürter",
       "area": "Altstadt / Innenstadt"
@@ -2006,6 +2123,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 54,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Nadine",
       "lastName": "Lohaus"
   },
@@ -2014,6 +2132,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 55,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Zemfira",
       "lastName": "Dlovani"
   },
@@ -2022,6 +2141,7 @@ export const products = [
       "party": "CDU",
       "numberOnList": 56,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Dr. Adrian",
       "lastName": "Nitsche"
   },
@@ -2067,6 +2187,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 5,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Karin",
       "lastName": "Vogel"
   },
@@ -2084,6 +2205,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 7,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Alexander",
       "lastName": "Lust"
   },
@@ -2101,6 +2223,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 9,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Judith",
       "lastName": "Becker"
   },
@@ -2109,6 +2232,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 10,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thomas",
       "lastName": "Reck"
   },
@@ -2117,6 +2241,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 11,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Eva",
       "lastName": "Schöddert-Horstmann"
   },
@@ -2125,6 +2250,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 12,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Hans-Christian",
       "lastName": "Sommer"
   },
@@ -2133,6 +2259,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 13,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Dillmann"
   },
@@ -2141,6 +2268,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 14,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Joachim Wilhelm Josef",
       "lastName": "Bretz"
   },
@@ -2149,6 +2277,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 15,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Anna Christine",
       "lastName": "Silberbauer-Wagner"
   },
@@ -2157,6 +2286,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Dietrich-Martin",
       "lastName": "Werner"
   },
@@ -2165,6 +2295,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 17,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Fabian",
       "lastName": "Becker"
   },
@@ -2173,6 +2304,7 @@ export const products = [
       "party": "AfD",
       "numberOnList": 18,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Elenore",
       "lastName": "Wiesemannn"
   },
@@ -2182,6 +2314,7 @@ export const products = [
       "numberOnList": 1,
       "title": "Dr. h. c.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Friedhelm",
       "lastName": "Pieper"
   },
@@ -2199,6 +2332,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 3,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Vogt"
   },
@@ -2207,6 +2341,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 4,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Lukas",
       "lastName": "Gondro"
   },
@@ -2215,6 +2350,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 5,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Thomas",
       "lastName": "Heisterhagen"
   },
@@ -2223,6 +2359,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 6,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christoph",
       "lastName": "Schöll"
   },
@@ -2231,6 +2368,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 7,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Sven",
       "lastName": "Schillings"
   },
@@ -2239,6 +2377,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 8,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Irngard",
       "lastName": "Walther"
   },
@@ -2247,6 +2386,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 9,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gisela",
       "lastName": "Lange"
   },
@@ -2255,6 +2395,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 10,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Alana",
       "lastName": "Heisterhagen"
   },
@@ -2263,6 +2404,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 11,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Arnold",
       "lastName": "Thieltges"
   },
@@ -2272,6 +2414,7 @@ export const products = [
       "numberOnList": 12,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Alex",
       "lastName": "Rott"
   },
@@ -2280,6 +2423,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 13,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Marc Jean Stefan",
       "lastName": "Gilles"
   },
@@ -2288,6 +2432,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 14,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Andreas",
       "lastName": "Brand"
   },
@@ -2296,6 +2441,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 15,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Josef",
       "lastName": "Scherkenbach"
   },
@@ -2304,6 +2450,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Gerhard",
       "lastName": "Lingnau"
   },
@@ -2312,6 +2459,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 17,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Jens",
       "lastName": "Schwietring"
   },
@@ -2320,6 +2468,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 18,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Kerstin",
       "lastName": "Dziwis"
   },
@@ -2328,6 +2477,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 19,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Jorien",
       "lastName": "Hennchen"
   },
@@ -2336,6 +2486,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 20,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Claudia",
       "lastName": "Kriebs"
   },
@@ -2344,6 +2495,7 @@ export const products = [
       "party": "FDP",
       "numberOnList": 21,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Bertram",
       "lastName": "Litterscheid"
   },
@@ -2353,6 +2505,7 @@ export const products = [
       "numberOnList": 22,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Wilfried",
       "lastName": "Schmidt-Busemann"
   },
@@ -2362,6 +2515,7 @@ export const products = [
       "numberOnList": 23,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Sebastian",
       "lastName": "Gleixner"
   },
@@ -2444,6 +2598,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 9,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Stefanie",
       "lastName": "Both"
   },
@@ -2461,7 +2616,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 11,
       "gender": "w",
-      "pic" : "",
+      "pic": "assets/images/wCan.png",
       "firstName": "Waltraud",
       "lastName": "Daum"
   },
@@ -2471,7 +2626,7 @@ export const products = [
       "numberOnList": 12,
       "title": "Dr.",
       "gender": "m",
-      "pic" : "",
+      "pic": "assets/images/mCan.png",
       "firstName": "Joachim",
       "lastName": "Kneis"
   },
@@ -2480,7 +2635,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 13,
       "gender": "w",
-      "pic" : "",
+      "pic": "assets/images/wCan.png",
       "firstName": "Christiane ",
       "lastName": "Wefelscheid"
   },
@@ -2489,7 +2644,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 14,
       "gender": "m",
-      "pic" : "",
+      "pic": "assets/images/mCan.png",
       "firstName": "Hans-Joachim",
       "lastName": "Mehlhorn"
   },
@@ -2507,6 +2662,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 16,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gabriele ",
       "lastName": "Hofmann"
   },
@@ -2515,6 +2671,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 17,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Udo",
       "lastName": "Hourle"
   },
@@ -2532,6 +2689,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 19,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Britta",
       "lastName": "Sperling"
   },
@@ -2540,6 +2698,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 20,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gudrun",
       "lastName": "Kühlenthal"
   },
@@ -2548,6 +2707,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 21,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Stefan",
       "lastName": "Mies"
   },
@@ -2556,6 +2716,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 22,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Leo",
       "lastName": "Halfpap"
   },
@@ -2564,6 +2725,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 23,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Nilda",
       "lastName": "Zounar-Bauer"
   },
@@ -2573,6 +2735,7 @@ export const products = [
       "numberOnList": 24,
       "title": "Dr.",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Dieter",
       "lastName": "Brambring"
   },
@@ -2581,6 +2744,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 25,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Angela",
       "lastName": "Pape"
   },
@@ -2589,6 +2753,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 26,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Anja",
       "lastName": "Gross-Kölsch"
   },
@@ -2597,6 +2762,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 27,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Andreas",
       "lastName": "Roj"
   },
@@ -2605,6 +2771,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 28,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Hans",
       "lastName": "Göbel"
   },
@@ -2614,6 +2781,7 @@ export const products = [
       "numberOnList": 29,
       "title": "Dr. ",
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Stephan",
       "lastName": "Mertes"
   },
@@ -2622,6 +2790,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 30,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Reiner",
       "lastName": "Genevriére"
   },
@@ -2630,6 +2799,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 31,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gabriele",
       "lastName": "Wefelscheid-Dähn"
   },
@@ -2638,6 +2808,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 32,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Norbert",
       "lastName": "Schmitz"
   },
@@ -2646,6 +2817,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 33,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Dähn"
   },
@@ -2654,6 +2826,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 34,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Ursula",
       "lastName": "Vonnahme"
   },
@@ -2662,6 +2835,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 35,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Harald",
       "lastName": "Mertes"
   },
@@ -2670,6 +2844,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 36,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Bernd",
       "lastName": "Wefelscheid"
   },
@@ -2678,6 +2853,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 37,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Oliver  ",
       "lastName": "Gerhards"
   },
@@ -2686,6 +2862,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 38,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Carola",
       "lastName": "Dittmann"
   },
@@ -2694,6 +2871,7 @@ export const products = [
       "party": "FREIE WÄHLER",
       "numberOnList": 39,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Barbara",
       "lastName": "Kniffka"
   },
@@ -2702,6 +2880,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 1,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christian",
       "lastName": "Altmaier"
   },
@@ -2728,6 +2907,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 4,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Leslie",
       "lastName": "Wilbert"
   },
@@ -2745,6 +2925,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 6,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Weis",
       "lastName": "Richard"
   },
@@ -2753,6 +2934,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 7,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "pic" : "http://www.fbgkoblenz.de/content/eXAg052ZFfCQPB45MT5e.jpg",
       "firstName": "Werner",
       "lastName": "Rosenbaum"
@@ -2762,6 +2944,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 8,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Werner",
       "lastName": "Bastian"
   },
@@ -2770,6 +2953,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 9,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Petra",
       "lastName": "Becker"
   },
@@ -2778,6 +2962,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 10,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Hermann",
       "lastName": "Störk"
   },
@@ -2786,6 +2971,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 11,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Berger"
   },
@@ -2794,6 +2980,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 12,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sabine",
       "lastName": "Störk"
   },
@@ -2802,6 +2989,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 13,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Marianne",
       "lastName": "Jürgens-Wilbert"
   },
@@ -2810,6 +2998,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 14,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Bastian",
       "lastName": "Norma"
   },
@@ -2818,6 +3007,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 15,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Gundula",
       "lastName": "Krebs"
   },
@@ -2826,6 +3016,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Rolf",
       "lastName": "Boettinger"
   },
@@ -2834,6 +3025,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 17,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Rolf",
       "lastName": "Becker"
   },
@@ -2842,6 +3034,7 @@ export const products = [
       "party": "FBG",
       "numberOnList": 18,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Karin",
       "lastName": "Pingault"
   },
@@ -2850,6 +3043,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 1,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Sebastian",
       "lastName": "Beuth"
   },
@@ -2858,6 +3052,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 2,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Kevin",
       "lastName": "Wilhelm"
   },
@@ -2866,6 +3061,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 3,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christoph Tobias",
       "lastName": "Klotz"
   },
@@ -2874,6 +3070,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 4,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Robert",
       "lastName": "Tamms"
   },
@@ -2882,6 +3079,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 5,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Inka",
       "lastName": "Kirsch"
   },
@@ -2890,6 +3088,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 6,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Sarah Jana",
       "lastName": "Fabis"
   },
@@ -2898,6 +3097,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 7,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Christine",
       "lastName": "Wegmann"
   },
@@ -2906,6 +3106,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 8,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Madelene",
       "lastName": "Reinema"
   },
@@ -2914,6 +3115,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 9,
       "gender": "m",
+      "pic": "assets/images/wCan.png",
       "firstName": "Pirmin",
       "lastName": "Braun"
   },
@@ -2922,6 +3124,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 10,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Pierre-Marc",
       "lastName": "Hartenfels"
   },
@@ -2930,6 +3133,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 11,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Sascha",
       "lastName": "Koch"
   },
@@ -2938,6 +3142,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 12,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Gerrit",
       "lastName": "Haase"
   },
@@ -2946,6 +3151,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 13,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Michael",
       "lastName": "Pache"
   },
@@ -2954,6 +3160,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 14,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Mike",
       "lastName": "Lieser"
   },
@@ -2962,6 +3169,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 15,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Fabio",
       "lastName": "Baulig"
   },
@@ -2970,6 +3178,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 16,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Aaron",
       "lastName": "Jachnik"
   },
@@ -2978,7 +3187,8 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 17,
       "gender": "m",
-      "firstName": "Andreas Werner",
+      "pic": "assets/images/mCan.png",
+      "firstName": "Andreas",
       "lastName": "Werner"
   },
   {
@@ -2986,6 +3196,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 18,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Lea",
       "lastName": "Baur"
   },
@@ -2994,6 +3205,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 19,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Christoph",
       "lastName": "Dyballa"
   },
@@ -3002,6 +3214,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 20,
       "gender": "w",
+      "pic": "assets/images/wCan.png",
       "firstName": "Maria",
       "lastName": "Fleming"
   },
@@ -3010,6 +3223,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 21,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Tim",
       "lastName": "Marx"
   },
@@ -3018,6 +3232,7 @@ export const products = [
       "party": "DIE PARTEI",
       "numberOnList": 22,
       "gender": "m",
+      "pic": "assets/images/mCan.png",
       "firstName": "Marcel",
       "lastName": "Simon"
   },
@@ -3458,7 +3673,7 @@ export const products = [
       "firstName": "Reimund",
       "lastName": "Hochscheid", 
       "link" : "https://waehlergruppe-schupp.de/wahlen/40-rene-guels",
-      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/Rene_Bild-1024x683.jpg",
+      "pic": "https://freie-liste-koblenz.de/wp-content/uploads/2019/04/41-mit-e-Reimund-Hochscheid-IMG-20190429-WA0001-169x300.jpg",
       "freetext" : "René Güls wurde am 02.02.1979 in Koblenz geboren, ist in Immendorf aufgewachsen und wohnt seit 15 Jahren auf dem Asterstein. Er ist verheiratet, hat 3 Kinder im Alter von 8, 14 und 18 Jahren und arbeitet in Bonn als Incident-Manager bei der „Postbank Systems“. Hier ist er auch als Ersatzmitglied im Betriebsrat aktiv. Ehrenamtliches Engagement bei u. a. TuS Koblenz (Social Media, IT-Administration, Stadion-Technik, uvm.) Fort Asterstein (Social Media) Facebook-Initiative “Pro Seilbahn Koblenz” (Social Media) DJK Asterstein (Technische Betreuung der Webseite)"
   },
   {
@@ -3634,7 +3849,7 @@ export const products = [
     "firstName": "Ralf",
     "lastName": "Scheuchner", 
     "link" : "https://waehlergruppe-schupp.de/wahlen",
-    "pic": "",
+    "pic": "assets/images/mCan.png",
     "freetext" : ""
 },
   {
