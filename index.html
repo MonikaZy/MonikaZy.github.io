@@ -1,159 +1,243 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
- 	<style type="text/css">
-        @import url("style.css");
-     </style>
-     
-	<script>
-		var slideIndex = 1;
-showSlides(slideIndex);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monika Zylka - T-shaped Business Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            background: #fff;
+        }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+        .header-box {
+            position: relative;
+            max-width: 1200px;
+            height: 200px;
+            background: linear-gradient(to top, #415880, #6e7785);
+            opacity: 60%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            box-sizing: border-box;
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("yukiSlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-	</script>
+            /* Add these lines */
+            margin: 0 auto;
+            /* Centers horizontally */
+        }
 
+        .header-box h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .header-box h2 {
+            margin: 5px 0 0;
+            /* Small spacing between title and name */
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        .content {
+            width: 70%;
+            padding: 20px;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: #f7f7f7;
+            /* Light grey color */
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            margin-right: 20px;
+            /* Enable positioning adjustments */
+            top: -150px;
+            /* Moves the sidebar upward to overlap the header */
+            z-index: 2;
+            /* Ensures the sidebar appears on top of the header */
+        }
+
+        .sidebar .profile-photo {
+            margin-top: 10px;
+        }
+
+        .sidebar .profile-photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+            /* No rounding */
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #395482;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            /* list-style: none; */
+            padding: 0;
+            margin: 0;
+            margin-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        </style>
 </head>
 
 <body>
-
-	<nav id="nav" role="navigation">
-            <a href="#nav" title="Show navigation">Show navigation</a>
-            <a href="#" title="Hide navigation">Hide navigation</a>
-            <ul style="margin-bottom: 0px;">
-                <li class="navigation">
-                    <a href="index.html"><img src="images/kna-logo.svg" width="auto" height="25px" alt=""> </a>
-                </li>
-                <li class="navigation"><a href="about.html">about</a>
-                </li>
-                <li class="navigation"><a href="projects.html" aria-haspopup="true">projects</a>
-                    <ul>
-                        <li><a href="voting.html">Voting Project</a>
-                        </li>
-                        <li><a href="website.html">This Website</a>
-                        </li>
-                        <li><a href="time.html">Time Management</a></li>
-                        </ul>
-                <li class="navigation"><a href="blog.html" aria-haspopup="true">blog</a>
-                </li>
-            </ul>
-    </nav>
-        
-        
-        
-<br>
-<br> 
-<p> Click on the small dot </p>
-        <!-- Slideshow container -->
-        <div class="slideContainer">
-            
-            <!-- Full-width images with number and caption text -->
-                <div class="yukiSlides">
-                	<div class="numberText"> 1/4 </div>
-                    <img  src="images/wide-1.jpg" style="width:100%">
-                    <div class="slideText"> SlideDescription of slide one </div>
-             	</div>
-                    
-                    
-                    
-                <div class="yukiSlides">
-                	<div class="numberText"> 2/4 </div>
-                    <img  src="images/wide-2.jpg" style="width:100%">
-                    <div class="slideText"> SlideDescription of slide two </div>
-                </div>
-                    
-                    
-                    
-                <div class="yukiSlides">
-                	<div class="numberText"> 3/4 </div>
-                    <img  src="images/wide-3.jpg" style="width:100%">
-                    <div class="slideText"> SlideDescription of slide three </div>
-                </div>
-                    
-                    
-                    
-                <div class="yukiSlides">
-                	<div class="numberText"> 4/4 </div>
-                    <img  src="images/wide-4.jpg" style="width:100%">
-                    <div class="slideText"> SlideDescription of slide four </div>
-                </div>
-                
-                
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-                    
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-            	<span class="dot" onclick="currentSlide(1)"><span>
-          	  	<span class="dot" onclick="currentSlide(2)"><span>
-            	<span class="dot" onclick="currentSlide(3)"><span>
-            	<span class="dot" onclick="currentSlide(4)"><span>
-            </div>
-            
-            
-            
-      <div class="content">       
- <!-- P A G E   C O N T E N T   G O E S   H E R E ---------------------------->
-      
-      
-  
-  
-  
-  
- <!-- P A G E   C O N T E N T   E N D S   H E R E-------------------------------->         
+    <!-- Top Gradient Header -->
+    <div class="header-box">
+        <h1>Monika Zylka</h1>
+        <h2>T-shaped Business Analystin</h2>
     </div>
-        
- 	<div id="footer">  
-        <footer>
-        
-        	<div class="fRow">
- 				<div class="fColumn"><b>Connect with me:</b>   <br>
-					<a href="">GitHub </a>
-					<a href="">XING </a>
-					<a href="">LinkedIn </a>
-					<br>
-				</div>
-  				<div class="fColumn">
-  				</div>
-  				
-  				<div class="fColumn"><b> Legal</b> <br>
-					&#169Monika Zylka,  
-					All rights reserved 
-					
-					
-					</div>
-					<a href="imprint.html">Imprint</a> <br>
-					<a href="sitemap.html">Sitemap</a>
-				</div>
-		</footer>
-	</div>
-	
-	</body>
+
+    <div class="container">
+        <!-- Main Content -->
+        <div class="content">
+            <div class="section">
+                <h3>Berufliches Profil</h3>
+                <p style="line-height: 1.6">Unternehmerisch denkende Business Analystin mit Leidenschaft für Start-up-ähnliche Umfelder. Breite Erfahrung in vielseitigen Aufgabenbereichen, die über herkömmliche Rollen hinausgehen, sowie in der Entwicklung von kleinen Tools. Prämiert im Ideenwettbewerb Koblenz und ausgezeichnet mit einem EXIST-Gründerstipendium für die Plattform CandidFind. Stark in Prozessmodellierung (BPMN, Ablaufdiagramme), datenbasierter Entscheidungsunterstützung sowie der Visualisierung von Informationen.</p>
+            </div>
+            <div class="section">
+                <h3>Berufliche Erfahrung</h3>
+                <h4>Cloud Engineering – <a href="https://dice-debeka.de/">DICE (Debeka Innovation Center)</a></h4>
+                <p>Oktober 2021 – heute | Koblenz & Remote</p>
+                <ul>
+                    <li>Derzeit im Projekt Virtuelle Debeka (VR)</li>
+                    <li>Weiterhin mit BA Tätigkeiten</li>
+                    <li>Erstellen einer Übersicht unserer Cloud-Ausgaben in einer Pivot Tabelle</li>
+                    <li>Erstellung von Visualisierungen von Daten und Zusammenhängen</li>
+                    <li>Calender von UNIT in draw.io</li>
+                    <li>Betreuung unserer DICE Cloud Umgebung</li>
+                    <li>Zusammenarbeit mit interdisziplinären Teams, um Cloud-Technologien effektiv einzusetzen</li>
+                    <li>PO im Dashboard Projekt im DICE (Übersicht über Projekte für DICE Leitung)</li>
+                    <li>Zusammenarbeit mit unterschiedlichen Abteilungen wie dem Vendor Management für die Website</li>
+                    <li>WordPress Admin DICE Website</li>
+                </ul>
+                <h4>Business Analyse – <a href="https://dice-debeka.de/">DICE (Debeka Innovation Center)</a></h4>
+                <p>April 2020 – September 2021 | Koblenz & Remote</p>
+                <ul>
+                    <li>Analyse und Modellierung von Geschäftsprozessen</li>
+                    <li>Durchführung von Markt- und Wettbewerbsanalysen, um Innovationspotenziale zu identifizieren</li>
+                    <li>Erstellen unseres DICE-Webauftritts</li>
+                    <li>Enge Zusammenarbeit mit Stakeholdern zur Spezifikation und Priorisierung von Anforderungen.</li>
+                    <li>Erste 6 Monate als Werkstudentin</li>
+                </ul>
+                <h4>Business Analyse – <a href="https://www.northdata.de/Amicido%20GmbH,%20Montabaur/HRB%2025723">Amicido</a> / <a href="https://vistalution.com/"> SWX </a></h4>
+                <p>Juni 2018 – März 2020 | Montabaur, Deutschland</p>
+                <ul>
+                    <li>Arbeiten in einem Start-up Umfeld, Fokus auf Datenvisualisierung und Prozessoptimierung</li>
+                    <li>Entwicklung von Power-BI-Dashboards und Nutzung von Pivot-Tabellen für Forecasting-Daten in der Automobilindustrie.</li>
+                    <li>Erstellung und Optimierung von Ablaufdiagrammen zur Unterstützung von Entscheidungsprozessen.</li>
+                    <li>Erstellung von Personas, des Webauftritts sowie User Stories</li>
+                    <li>Durchführung von Markt- und Wettbewerbsanalysen, um passende Tools füe unsere Start-up Bedürfnisse auszusuchen</li>
+                </ul>
+                <h4>Ausbildung zur Groß- und Außemhandelskauffrau und anschließend Vollzeit - <a href="https://www.exertisproav.de/en-us/allgemein/impressum">COMM-TEC</a></h4>
+                <p>Oktober 2013 – September 2015 | Uhingen, Deutschland</p>
+                <ul>
+                    <li>Export Sales Kundenbetreuung</li>
+                    <li>Marketing Assistenz</li>
+                    <li>Verkürzung der Ausbildung auf zwei Jahre wegen guter schulischer Leistung</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-photo">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFDGiun7WiIqw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673294490628?e=1743033600&v=beta&t=k5XjeDGM4C024XUvtzn0ZG--i-N6SOBwDLC77QB01Yw"
+                    alt="Monika Zylka">
+            </div>
+            <div class="section">
+                <h3>Persönliches</h3>
+                <ul style="list-style: none !important; margin-left: 0px !important;">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" style="display: inline-block; vertical-align: middle;
+                        width: 0.875rem;
+                        height: 0.875rem;"> <path fill-rule="evenodd" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"
+                        d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z">
+                    </path>
+                </svg> 0716 5770460912</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: text-bottom; 
+                        width: 0.875rem;
+                        height: 0.875rem;"> <path fill-rule="evenodd"
+                        d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z">
+                    </path>
+                </svg> monika.zylka@gmail.de</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; 
+                        width: 0.875rem;
+                        height: 0.875rem;"> <path
+                        d="M9.74462 21.7446C5.30798 20.7219 2 16.7473 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 16.7473 18.692 20.7219 14.2554 21.7446L12 24L9.74462 21.7446ZM7.01173 18.2567C7.92447 18.986 9.00433 19.5215 10.1939 19.7957L10.7531 19.9246L12 21.1716L13.2469 19.9246L13.8061 19.7957C15.0745 19.5033 16.2183 18.9139 17.1676 18.1091C15.8965 16.8078 14.1225 16 12.1597 16C10.1238 16 8.29083 16.8692 7.01173 18.2567ZM5.61562 16.8214C7.25644 15.0841 9.58146 14 12.1597 14C14.644 14 16.8931 15.0065 18.5216 16.634C19.4563 15.3185 20 13.7141 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 13.7964 4.59708 15.4722 5.61562 16.8214ZM12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5C14.2091 5 16 6.79086 16 9C16 11.2091 14.2091 13 12 13ZM12 11C13.1046 11 14 10.1046 14 9C14 7.89543 13.1046 7 12 7C10.8954 7 10 7.89543 10 9C10 10.1046 10.8954 11 12 11Z">
+                    </path>
+                </svg> 11.11.1991 in Bergstadt, Polen</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Sprachen</h3>
+                <ul style="list-style: none !important; margin-left: 0px !important;">
+                    <li>Deutsch: zweite Muttersprache</li>
+                    <li>Englisch: fließend</li>
+                    <li>Polnisch: mittlerweile ein Wenig verlernt</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Kenntnisse und Fähigkeiten</h3>
+                <ul style="list-style: none !important; margin-left: 0px !important;">
+                    <li>Datenanalyse</li>
+                    <li>Python, Django</li>
+                    <li>Power BI</li>
+                    <li>Excel (Pivot-Tabellen)</li>
+                    <li>BPMN Prozessmodellierung</li>
+                    <li>Start-up-Management</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Interessen</h3>
+                <p style="line-height: 1.6">Tanzen, Fahrrad fahren, nähen, programmieren</p>
+            </div>
+            <div class="section">
+                <h3>Hobbyprojekt Candidfind</h3>
+                <p style="line-height: 1.6">Entwicklung und Leitung einer Plattform zur Verbesserung von Kandidatenvergleichen.</p>
+                <ul style="line-height: 1.6">
+                    <li>Gewinnerin des Ideenwettbewerbs Koblenz und Empfängerin des EXIST-Women-Stipendiums.</li> 
+                    <li>Erstellung eines datenbasierten Modells zur Erweiterung der Plattformfunktionen.</li> 
+                    <li>Flexibles Arbeiten in vielseitigen Rollen, von Kundenbetreuerin, zur Datenanalyse bis hin zur Prozessmodellierung etc.</li> 
+                    <li>Development mit ChatGPT</li>    
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+    <div class="container">
+        <iframe frameborder="0" style="width:100%;height:1159px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Personal%20Map.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Rc4wneyAqXcbH6pU9_4T4K2bvI5HBOcQ%26export%3Ddownload"></iframe>
+    </div>
+</body>
+
 </html>
